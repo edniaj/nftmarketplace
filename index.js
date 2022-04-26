@@ -11,12 +11,12 @@ require('dotenv').config();
 //     }
 // },60*60*1000)
 
-const session = require('express-session');
-const flash = require('connect-flash');
-const FileStore = require('session-file-store')(session);
+// const session = require('express-session');
+// const flash = require('connect-flash');
+// const FileStore = require('session-file-store')(session);
 
 // require in csurf
-const csrf = require('csurf');
+// const csrf = require('csurf');
 
 
 // create express app
@@ -36,28 +36,28 @@ app.use(express.urlencoded({
 }))
 
 // custom middlewares
-app.use(function(req,res,next){
-    // declare a varianle named
-    // date that is available for
-    // all hbs file to access
-    res.locals.date = Date();
+// app.use(function(req,res,next){
+//     // declare a varianle named
+//     // date that is available for
+//     // all hbs file to access
+//     res.locals.date = Date();
 
-    next(); // forward the request to the next middleware
-            // or if there is no middleware,to the intended route function
-})
+//     next(); // forward the request to the next middleware
+//             // or if there is no middleware,to the intended route function
+// })
 
 app.use(cors()); // make sure to enable cors before sessions
 
 // setup sessions
-app.use(session({
-    'store': new FileStore(),
-    'secret':process.env.SESSION_SECRET_KEY,
-    'resave': false,
-    'saveUninitialized': true
-}))
+// app.use(session({
+//     'store': new FileStore(),
+//     'secret':process.env.SESSION_SECRET_KEY,
+//     'resave': false,
+//     'saveUninitialized': true
+// }))
 
 // setup flash message
-app.use(flash());
+// app.use(flash());
 
 // display in the hbs file
 // app.use(function(req,res,next){
@@ -121,7 +121,7 @@ const api = {
     // users: require('./routes/api/users')
 }
 
-const { checkIfAuthenticated } = require('./middlewares');
+// const { checkIfAuthenticated } = require('./middlewares');
 
 
 
@@ -150,3 +150,35 @@ main();
 app.listen(process.env.PORT,function(req,res){
     console.log("Server started");
 })
+
+
+
+
+// Extra stuff to add
+// caolan form
+// csrf
+// cloudinary
+// stripe
+// session
+// crypto
+
+// middleware
+// const checkIfAuthenticated = (req, res, next) => {
+//     if (req.session.user) {
+//         next()
+//     } else {
+//         req.flash("error_messages", "You need to sign in to access this page");
+//         res.redirect('/users/login');
+//     }
+// }
+
+// module.exports = {
+//     checkIfAuthenticated
+// }
+
+// DAL
+// DSL
+// web hook
+// api endponit for stripes to ping u once they are done
+
+

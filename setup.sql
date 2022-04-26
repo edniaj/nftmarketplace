@@ -1,0 +1,1 @@
+insert into collections (name, address, baseTokenUri, supply, profileUrl, bannerUrl, collectionApproved) values (test, test, test ,test ,test ,test ,false);
