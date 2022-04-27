@@ -14,33 +14,22 @@ exports.setup = function (options, seedLink) {
   seed = seedLink;
 };
 
-exports.up = async function (db) {
-  return db.createTable('nfts', {
+exports.up = function (db) {
+  return db.createTable('nfts_traits', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
     },
-    tokenId: {
-      type: "int",
-      unsigned: true,
-      notNull: true
-    },
-    // status will show if its listed, in auction, launchpad or none
-    status: {
-      type: 'string',
-      length: 100,
-      notNull: true
-    },
-    collection_id:
+    trait_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'collections_nfts_fk',
-        table: 'collections',
+        name: 'nfts_traits_trait_fk',
+        table: 'traits',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'
@@ -48,14 +37,14 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    user_id:
+    nft_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'nfts_users_fk',
-        table: 'users',
+        name: 'nfts_traits_nft_fk',
+        table: 'nfts',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'
@@ -63,17 +52,11 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    imageUrl: {
-      type: 'string',
-      length: 250,
-      notNull: true
-    },
-
-  });
+  })
 };
 
 exports.down = function (db) {
-  return db.dropTable('nfts');
+  return db.dropTable('nfts_traits');
 };
 
 exports._meta = {

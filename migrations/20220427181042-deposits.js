@@ -15,32 +15,21 @@ exports.setup = function (options, seedLink) {
 };
 
 exports.up = async function (db) {
-  return db.createTable('nfts', {
+  return db.createTable('deposits', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
     },
-    tokenId: {
-      type: "int",
-      unsigned: true,
-      notNull: true
-    },
-    // status will show if its listed, in auction, launchpad or none
-    status: {
-      type: 'string',
-      length: 100,
-      notNull: true
-    },
-    collection_id:
+    nft_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'collections_nfts_fk',
-        table: 'collections',
+        name: 'deposits_nfts_fk',
+        table: 'nfts',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'
@@ -54,7 +43,7 @@ exports.up = async function (db) {
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'nfts_users_fk',
+        name: 'deposits_users_fk',
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
@@ -63,17 +52,24 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    imageUrl: {
+    datetime: {
+      type: 'timestamp',
+      notNull: true
+    },
+    txHash: {
       type: 'string',
       length: 250,
       notNull: true
     },
-
+    depositApproved: {
+      type: 'boolean',
+      notNull: true
+    }
   });
 };
 
 exports.down = function (db) {
-  return db.dropTable('nfts');
+  return db.dropTable('deposits');
 };
 
 exports._meta = {

@@ -31,11 +31,12 @@ exports.up = function (db) {
       type: 'string',
       length: 100,
       notNull: true
+    },
+    walletAddress: {
+      type: 'string',
+      length: 50
     }
-  }
-
-  );
-
+  });
 };
 
 exports.down = function (db) {

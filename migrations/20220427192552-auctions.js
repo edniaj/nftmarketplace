@@ -15,38 +15,12 @@ exports.setup = function (options, seedLink) {
 };
 
 exports.up = async function (db) {
-  return db.createTable('nfts', {
+  return db.createTable('auctions', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
-    },
-    tokenId: {
-      type: "int",
-      unsigned: true,
-      notNull: true
-    },
-    // status will show if its listed, in auction, launchpad or none
-    status: {
-      type: 'string',
-      length: 100,
-      notNull: true
-    },
-    collection_id:
-    {
-      type: 'int',
-      unsigned: 'true',
-      notNull: true,
-      foreignKey: {
-        name: 'collections_nfts_fk',
-        table: 'collections',
-        rules: {
-          onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
-        },
-        mapping: 'id'
-      }
     },
     user_id:
     {
@@ -54,7 +28,7 @@ exports.up = async function (db) {
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'nfts_users_fk',
+        name: 'auctions_users_fk',
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
@@ -63,17 +37,46 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    imageUrl: {
-      type: 'string',
-      length: 250,
+    nft_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'auctions_nfts_fk',
+        table: 'nfts',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
+    },
+    datetime: {
+      type: 'timestamp',
       notNull: true
     },
-
+    minBidAmount: {
+      type: 'decimal',
+      notNull: true
+    },
+    bidInterval: {
+      type: 'decimal',
+      notNull: true
+    },
+    startDateTime: {
+      type: 'timestamp',
+      notNull: true
+    },
+    endDateTime: {
+      type: 'timestamp',
+      notNull: true
+    },
   });
 };
 
 exports.down = function (db) {
-  return db.dropTable('nfts');
+  return db.dropTable('auctions');
 };
 
 exports._meta = {

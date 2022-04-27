@@ -15,46 +15,20 @@ exports.setup = function (options, seedLink) {
 };
 
 exports.up = async function (db) {
-  return db.createTable('nfts', {
+  return db.createTable('sales', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
     },
-    tokenId: {
-      type: "int",
-      unsigned: true,
-      notNull: true
-    },
-    // status will show if its listed, in auction, launchpad or none
-    status: {
-      type: 'string',
-      length: 100,
-      notNull: true
-    },
-    collection_id:
+    buyer_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'collections_nfts_fk',
-        table: 'collections',
-        rules: {
-          onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
-        },
-        mapping: 'id'
-      }
-    },
-    user_id:
-    {
-      type: 'int',
-      unsigned: 'true',
-      notNull: true,
-      foreignKey: {
-        name: 'nfts_users_fk',
+        name: 'users_sales_fk',
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
@@ -63,17 +37,48 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    imageUrl: {
-      type: 'string',
-      length: 250,
+    seller_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'users_sales_fk_1',
+        table: 'users',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
+    },
+    nft_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'nfts_sales_fk',
+        table: 'nfts',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
+    },
+    datetime: {
+      type: 'timestamp',
       notNull: true
     },
-
+    amount: {
+      type: 'decimal',
+      notNull: true
+    }
   });
 };
-
 exports.down = function (db) {
-  return db.dropTable('nfts');
+  return db.dropTable('sales');
 };
 
 exports._meta = {

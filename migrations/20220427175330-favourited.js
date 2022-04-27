@@ -8,45 +8,19 @@ var seed;
   * We receive the dbmigrate dependency from dbmigrate initially.
   * This enables us to not have to rely on NODE_PATH.
   */
-exports.setup = function (options, seedLink) {
+exports.setup = function(options, seedLink) {
   dbm = options.dbmigrate;
   type = dbm.dataType;
   seed = seedLink;
 };
 
-exports.up = async function (db) {
-  return db.createTable('nfts', {
+exports.up = function (db) {
+  return db.createTable('favourited', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
-    },
-    tokenId: {
-      type: "int",
-      unsigned: true,
-      notNull: true
-    },
-    // status will show if its listed, in auction, launchpad or none
-    status: {
-      type: 'string',
-      length: 100,
-      notNull: true
-    },
-    collection_id:
-    {
-      type: 'int',
-      unsigned: 'true',
-      notNull: true,
-      foreignKey: {
-        name: 'collections_nfts_fk',
-        table: 'collections',
-        rules: {
-          onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
-        },
-        mapping: 'id'
-      }
     },
     user_id:
     {
@@ -54,7 +28,7 @@ exports.up = async function (db) {
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'nfts_users_fk',
+        name: 'favourited_users_fk',
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
@@ -63,17 +37,30 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    imageUrl: {
-      type: 'string',
-      length: 250,
-      notNull: true
+    nft_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'favourited_nfts_fk',
+        table: 'nfts',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
     },
-
-  });
+    datetime: {
+      type: 'timestamp',
+      notNull:true
+    }
+  })
 };
 
-exports.down = function (db) {
-  return db.dropTable('nfts');
+exports.down = function(db) {
+  return db.dropTable('favourited');
 };
 
 exports._meta = {
