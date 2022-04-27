@@ -52,12 +52,10 @@ exports.up = async function (db) {
   });
 };
 
-exports.down = async function (db) {
-  await db.removeForeignKey('nfts', 'collections_nfts_fk')
-  await db.removeColumn('nfts', 'collection_id')
-  await db.dropTable('nfts');
-  await db.dropTable('collections')
-  await db.dropTable('users')
+exports.down = function (db) {
+  // await db.removeForeignKey('nfts', 'collections_nfts_fk')
+  // await db.removeColumn('nfts', 'collection_id')
+  return db.dropTable('nfts');
 };
 
 exports._meta = {
