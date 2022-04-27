@@ -47,7 +47,22 @@ exports.up = async function (db) {
         },
         mapping: 'id'
       }
-    }
+    },
+    user_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'nfts_users_fk',
+        table: 'users',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
+    },
 
   });
 };
