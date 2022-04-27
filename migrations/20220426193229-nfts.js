@@ -14,7 +14,7 @@ exports.setup = function (options, seedLink) {
   seed = seedLink;
 };
 
-exports.up = function (db) {
+exports.up = async function (db) {
   return db.createTable('nfts', {
     id: {
       type: 'int',
@@ -23,7 +23,7 @@ exports.up = function (db) {
       autoIncrement: true
     },
     tokenId: {
-      type: "integer",
+      type: "int",
       unsigned: true,
       notNull: true
     },
@@ -32,31 +32,32 @@ exports.up = function (db) {
       type: 'string',
       length: 100,
       notNull: true
-    }, 
-    collectionId:
+    },
+    collection_id:
     {
       type: 'int',
-      unsigned: true,
-      length: 10,
+      unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'collectionts_nfts_fk',
+        name: 'collections_nfts_fk',
         table: 'collections',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'
         },
-        mapping: {
-          collectionId: 'id'
-        }
+        mapping: 'id'
       }
     }
 
   });
 };
 
-exports.down = function (db) {
-  return db.dropTable('nfts');
+exports.down = async function (db) {
+  await db.removeForeignKey('nfts', 'collections_nfts_fk')
+  await db.removeColumn('nfts', 'collection_id')
+  await db.dropTable('nfts');
+  await db.dropTable('collections')
+  await db.dropTable('users')
 };
 
 exports._meta = {

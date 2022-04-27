@@ -38,7 +38,7 @@ exports.up = function (db) {
       notNull: true
     },
     supply: {
-      type: "integer",
+      type: "int",
       unsigned: true
     },
     profileUrl: {
@@ -51,16 +51,15 @@ exports.up = function (db) {
     },
     collectionApproved: {
       type: "boolean",
-      notNull:true
+      notNull: true
     }
   }
-
   );
 
 };
 
 exports.down = function (db) {
-  return db.dropTable('collections');
+  return null;
 };
 
 
