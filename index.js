@@ -11,9 +11,9 @@ require('dotenv').config();
 //     }
 // },60*60*1000)
 
-// const session = require('express-session');
-// const flash = require('connect-flash');
-// const FileStore = require('session-file-store')(session);
+const session = require('express-session');
+const flash = require('connect-flash');
+const FileStore = require('session-file-store')(session);
 
 // require in csurf
 // const csrf = require('csurf');
@@ -49,27 +49,27 @@ app.use(express.urlencoded({
 app.use(cors()); // make sure to enable cors before sessions
 
 // setup sessions
-// app.use(session({
-//     'store': new FileStore(),
-//     'secret':process.env.SESSION_SECRET_KEY,
-//     'resave': false,
-//     'saveUninitialized': true
-// }))
+app.use(session({
+    'store': new FileStore(),
+    'secret':process.env.SESSION_SECRET_KEY,
+    'resave': false,
+    'saveUninitialized': true
+}))
 
 // setup flash message
-// app.use(flash());
+app.use(flash());
 
 // display in the hbs file
-// app.use(function(req,res,next){
-//     // transfer any success messages stored in the session
-//     // to the variables in hbs files
-//     res.locals.success_messages = req.flash("success_messages");
-//     res.locals.error_messages = req.flash('error_messages');
-//     next();    
-// })
+app.use(function(req,res,next){
+    // transfer any success messages stored in the session
+    // to the variables in hbs files
+    res.locals.success_messages = req.flash("success_messages");
+    res.locals.error_messages = req.flash('error_messages');
+    next();    
+})
 
 
-// app.use(csrf());
+// app.use(csrf());R
 // const csurfInstance = csrf();  // creating a prox of the middleware
 // app.use(function(req,res,next){
 //     // if it is webhook url, then call next() immediately
@@ -121,15 +121,19 @@ const api = {
     // users: require('./routes/api/users')
 }
 
+// Private routes
+const adminRoutes = require('./routes/admin')
 // const { checkIfAuthenticated } = require('./middlewares');
 
 
 
-async function main(){
-    app.get('/', function(req,res){
-                res.send("Welcome")
-            })
 
+
+async function main() {
+    app.get('/', function (req, res) {
+        res.send("Welcome")
+    })
+    app.use('/admin', adminRoutes)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing
@@ -138,16 +142,8 @@ async function main(){
 }
 main();
 
-// (async function(){
-//     console.log("app")
-//     console.log("app.get")
-//     app.get('/', function(req,res){
-//         console.log(res);
-//         res.send("Hello World");
-//     })
-// })();
 
-app.listen(process.env.PORT,function(req,res){
+app.listen(process.env.PORT, function (req, res) {
     console.log("Server started");
 })
 
