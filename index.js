@@ -17,19 +17,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 const FileStore = require('session-file-store')(session);
 
-app.use(csrf())
-app.use(function (err, req, res, next) {
-    if (err && err.code == "EBADCSRFTOKEN") {
-        req.flash('error_messages', 'The form has expired. Please try again');
-        res.redirect('back');
-    } else {
-        next()
-    }
-});
-app.use(function(req,res,next){
-    res.locals.csrfToken = req.csrfToken()
-    next()
-})
+
 
 
 
@@ -64,7 +52,20 @@ app.use(session({
     'resave': false,
     'saveUninitialized': true
 }))
-
+// CSRF token
+app.use(csrf())
+app.use(function (err, req, res, next) {
+    if (err && err.code == "EBADCSRFTOKEN") {
+        req.flash('error_messages', 'The form has expired. Please try again');
+        res.redirect('back');
+    } else {
+        next()
+    }
+});
+app.use(function(req,res,next){
+    res.locals.csrfToken = req.csrfToken()
+    next()
+})
 // setup flash message
 app.use(flash());
 
