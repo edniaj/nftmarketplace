@@ -20,7 +20,8 @@ exports.up = function (db) {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
+      unique: true
     },
     username: {
       type: "string",

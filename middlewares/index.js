@@ -1,23 +1,23 @@
 const jwt = require('jsonwebtoken');
 
-const checkIfAuthenticated = function(req,res,next) {
+const checkAdminAuthenticated = function (req, res, next) {
     if (req.session.user) {
         next();
     } else {
         req.flash("error_messages", "Unable to comply. Please login");
-        res.redirect('/users/login');
+        res.redirect('/admin/login');
     }
 
 
 }
 
-const checkIfAuthenticatedJWT = function(req,res,next) {
+const checkIfAuthenticatedJWT = function (req, res, next) {
     const authHeader = req.headers.authorization;
 
     if (authHeader) {
         const token = authHeader.split(' ')[1];
 
-        jwt.verify(token, process.env.TOKEN_SECRET, function(err,payload){
+        jwt.verify(token, process.env.TOKEN_SECRET, function (err, payload) {
             if (err) {
                 return res.sendStatus(403);
             }
@@ -31,4 +31,4 @@ const checkIfAuthenticatedJWT = function(req,res,next) {
 }
 
 
-module.exports = { checkIfAuthenticated, checkIfAuthenticatedJWT };
+module.exports = { checkAdminAuthenticated, checkIfAuthenticatedJWT };

@@ -15,9 +15,9 @@ exports.setup = function(options, seedLink) {
 };
 
 exports.up = function(db) {
-  return db.insert('users',
-  ['username', 'password', 'walletAddress'],
-  ['admin', 'test', '0x00000000003b413a8c1dea7c80fac2f3f7536a7d'])
+  return db.insert('admins',
+  ['username', 'password'],
+  ['admin', '9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08'])
 
 };
 

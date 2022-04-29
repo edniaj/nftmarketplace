@@ -35,16 +35,11 @@ app.use(express.urlencoded({
     'extended': false
 }))
 
-// custom middlewares
 // app.use(function(req,res,next){
-//     // declare a varianle named
-//     // date that is available for
-//     // all hbs file to access
-//     res.locals.date = Date();
-
-//     next(); // forward the request to the next middleware
-//             // or if there is no middleware,to the intended route function
+//     res.locals.user = req.session.user;
+//     next();
 // })
+
 
 app.use(cors()); // make sure to enable cors before sessions
 
@@ -123,7 +118,7 @@ const api = {
 
 // Private routes
 const adminRoutes = require('./routes/admin')
-// const { checkIfAuthenticated } = require('./middlewares');
+const { checkIfAuthenticated } = require('./middlewares');
 
 
 
@@ -144,7 +139,7 @@ main();
 
 
 app.listen(process.env.PORT, function (req, res) {
-    console.log("Server started");
+    console.log(`Server started at ${process.env.PORT}`);
 })
 
 
@@ -157,21 +152,6 @@ app.listen(process.env.PORT, function (req, res) {
 // stripe
 // session
 // crypto
-
-// middleware
-// const checkIfAuthenticated = (req, res, next) => {
-//     if (req.session.user) {
-//         next()
-//     } else {
-//         req.flash("error_messages", "You need to sign in to access this page");
-//         res.redirect('/users/login');
-//     }
-// }
-
-// module.exports = {
-//     checkIfAuthenticated
-// }
-
 // DAL
 // DSL
 // web hook
