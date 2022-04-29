@@ -102,10 +102,10 @@ app.use(function(req,res,next){
 // })
 
 // share the details of the logged in user with all routes
-// app.use(function(req,res,next){
-//     res.locals.user = req.session.user;
-//     next();
-// })
+app.use(function(req,res,next){
+    res.locals.user = req.session.user;
+    next();
+})
 
 
 
