@@ -25,14 +25,14 @@
             <div>
               {{#if user}}
                 Hi, 
-                <a href="/users/profile">
+                <a href="/admin/profile">
                 {{user.username}}
                 </a>
-                <a href="/users/logout" class="btn btn-sm btn-danger">
+                <a href="/admin/logout" class="btn btn-sm btn-danger">
                 Logout</a>
                 {{else}}
                   Welcome,  guest
-                  <a href="/users/login" class="btn btn-primary btn-sm">Login</a>
+                  <a href="/admin/login" class="btn btn-primary btn-sm">Login</a>
 
               {{/if}}
             </div>
