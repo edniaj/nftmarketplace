@@ -2,11 +2,6 @@ const express = require('express');
 const router = express.Router();
 const crypto = require('crypto');
 
-const app = express()
-app.use(function(req,res,next){
-        res.locals.user = req.session.user;
-        next();
-    })
 const getHashedPassword = (password) => {
     const sha256 = crypto.createHash('sha256');
     const hash = sha256.update(password).digest('base64');
@@ -15,15 +10,15 @@ const getHashedPassword = (password) => {
 const {
     createAdminLoginForm,
     bootstrapField
-} = require('../../forms')
+} = require('../forms')
 
 const {
     checkAdminAuthenticated
-} = require('../../middlewares')
+} = require('../middlewares')
 
 
 
-const { Admin } = require('../../models')
+const { Admin } = require('../models')
 
 router.get('/', checkAdminAuthenticated,async(req,res) => {
     res.render('admin')
@@ -80,6 +75,7 @@ router.post('/login', async (req, res) => {
         }
     })
 })
+
 
 router.get('/logout', (req,res) => {
     req.session.user = null

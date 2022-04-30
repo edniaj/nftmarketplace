@@ -3,13 +3,7 @@ const forms = require("forms");
 // create some shortcuts
 const fields = forms.fields;
 const validators = forms.validators;
-const crypto = require('crypto');
 
-const getHashedPassword = (password) => {
-    const sha256 = crypto.createHash('sha256');
-    const hash = sha256.update(password).digest('base64');
-    return hash;
-}
 var bootstrapField = function (name, object) {
     if (!Array.isArray(object.widget.classes)) { object.widget.classes = []; }
 
@@ -50,7 +44,64 @@ const createAdminLoginForm = () => {
     })
 }
 
+const createCollectionsForm = () => {
+    return forms.create({
+        'name': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators:[validators.required()]
+        }),
+        'supply': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            'validators':[validators.integer()]
+        }),
+        'baseTokenUri': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+        'address': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+        'profileUrl': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+        'bannerUrl': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+        'collectionApproved': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+    })
+};
+
 module.exports = {
     createAdminLoginForm,
+    createCollectionsForm,
     bootstrapField
 };

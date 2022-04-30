@@ -28,6 +28,8 @@ const app = express();
 app.set('view engine', 'hbs');
 
 app.use(express.static('public'));
+// setup flash message
+app.use(flash());
 
 wax.on(hbs.handlebars);
 wax.setLayoutPath('./views/layouts');
@@ -48,11 +50,16 @@ app.use(cors()); // make sure to enable cors before sessions
 // setup sessions
 app.use(session({
     'store': new FileStore(),
-    'secret':process.env.SESSION_SECRET_KEY,
+    'secret': process.env.SESSION_SECRET_KEY,
     'resave': false,
     'saveUninitialized': true
 }))
-// CSRF token
+
+app.use(function (req, res, next) {
+    res.locals.user = req.session.user;
+    next();
+})
+// CSRF token remember to put inside the form
 app.use(csrf())
 app.use(function (err, req, res, next) {
     if (err && err.code == "EBADCSRFTOKEN") {
@@ -62,20 +69,18 @@ app.use(function (err, req, res, next) {
         next()
     }
 });
-app.use(function(req,res,next){
+app.use(function (req, res, next) {
     res.locals.csrfToken = req.csrfToken()
     next()
 })
-// setup flash message
-app.use(flash());
 
 // display in the hbs file
-app.use(function(req,res,next){
+app.use(function (req, res, next) {
     // transfer any success messages stored in the session
     // to the variables in hbs files
     res.locals.success_messages = req.flash("success_messages");
     res.locals.error_messages = req.flash('error_messages');
-    next();    
+    next();
 })
 
 
@@ -117,7 +122,7 @@ app.use(function(req,res,next){
 // })
 
 // share the details of the logged in user with all routes
-app.use(function(req,res,next){
+app.use(function (req, res, next) {
     res.locals.user = req.session.user;
     next();
 })
@@ -132,7 +137,8 @@ const api = {
 }
 
 // Private routes
-const adminRoutes = require('./routes/admin')
+const adminRoutes = require('./routes/admin.js')
+const collectionRoutes = require('./routes/collections.js')
 const { checkIfAuthenticated } = require('./middlewares');
 
 
@@ -144,6 +150,7 @@ async function main() {
         res.send("Welcome")
     })
     app.use('/admin', adminRoutes)
+    app.use('/collections', collectionRoutes)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing

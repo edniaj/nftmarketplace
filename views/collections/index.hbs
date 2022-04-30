@@ -1,0 +1,54 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>name</th>
+            <th>collection approved</th>
+            <th>address</th>
+            <th>base token uri</th>
+            <th>supply</th>
+            <th>profile url</th>
+            <th>banner url</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        {{#each collections}}
+        <tr>
+            <td>
+                <a href="/collections/{{this.id}}/update" class="btn btn-primary btn-sm">Update</a>
+                <a href="/collections/{{this.id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+            <td>
+                {{name}}
+            </td>
+            <td>
+                {{collectionApproved}}
+            </td>
+            <td>
+                {{address}}
+            </td>
+            <td>
+                {{baseTokenUri}}
+            </td>
+            <td>
+                {{supply}}
+            </td>
+            <td>
+                {{profileUrl}}
+            </td>
+            <td>
+                {{bannerUrl}}
+            </td>
+
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{/block}}
+
+{{/extends}}

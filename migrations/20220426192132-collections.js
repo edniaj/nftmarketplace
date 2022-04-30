@@ -50,7 +50,8 @@ exports.up = function (db) {
       length: 250
     },
     collectionApproved: {
-      type: "boolean",
+      type: "string",
+      length:5,
       notNull: true
     }
   }

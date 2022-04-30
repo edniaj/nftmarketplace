@@ -6,9 +6,14 @@ const Admin = bookshelf.model('Admin', {
 
 const User = bookshelf.model('User', {
     tableName: 'users',  
+})
 
+const Collection = bookshelf.model('Collection', {
+    tableName: 'collections',  
 })
 
 module.exports = {
-    Admin
+    Admin,
+    User,
+    Collection
 }
