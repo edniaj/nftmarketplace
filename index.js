@@ -76,8 +76,6 @@ app.use(function (req, res, next) {
 
 // display in the hbs file
 app.use(function (req, res, next) {
-    // transfer any success messages stored in the session
-    // to the variables in hbs files
     res.locals.success_messages = req.flash("success_messages");
     res.locals.error_messages = req.flash('error_messages');
     next();
@@ -136,10 +134,12 @@ const api = {
     // users: require('./routes/api/users')
 }
 
+
+const { checkAdminAuthenticated } = require('./middlewares');
 // Private routes
 const adminRoutes = require('./routes/admin.js')
 const collectionRoutes = require('./routes/collections.js')
-const { checkIfAuthenticated } = require('./middlewares');
+const depositRoutes = require('./routes/deposits.js')
 
 
 
@@ -150,7 +150,8 @@ async function main() {
         res.send("Welcome")
     })
     app.use('/admin', adminRoutes)
-    app.use('/collections', collectionRoutes)
+    app.use('/collections',checkAdminAuthenticated, collectionRoutes)
+    app.use('/deposits', depositRoutes)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing

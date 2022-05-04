@@ -14,33 +14,28 @@ exports.setup = function (options, seedLink) {
   seed = seedLink;
 };
 
-exports.up = function (db) {
-  return db.createTable('users', {
+exports.up = async function (db) {
+  return db.createTable('auctionGroups', {
     id: {
       type: 'int',
       unsigned: 'true',
       primaryKey: true,
       autoIncrement: true
     },
-    username: {
-      type: "string",
-      length: 100,
+
+    startDateTime: {
+      type: 'bigint',
       notNull: true
     },
-    password: {
-      type: 'string',
-      length: 100,
+    endDateTime: {
+      type: 'bigint',
       notNull: true
     },
-    walletAddress: {
-      type: 'string',
-      length: 50
-    }
   });
 };
 
 exports.down = function (db) {
-  return db.dropTable('users');
+  return db.dropTable("auctionGroups");
 };
 
 exports._meta = {

@@ -52,10 +52,24 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    datetime: {
-      type: 'timestamp',
-      notNull: true
+
+    auctionGroups_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'auctionGroups_auctions_fk',
+        table: 'auctionGroups',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
     },
+
+
     minBidAmount: {
       type: 'decimal',
       notNull: true
@@ -64,14 +78,7 @@ exports.up = async function (db) {
       type: 'decimal',
       notNull: true
     },
-    startDateTime: {
-      type: 'timestamp',
-      notNull: true
-    },
-    endDateTime: {
-      type: 'timestamp',
-      notNull: true
-    },
+
   });
 };
 

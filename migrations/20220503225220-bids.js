@@ -53,7 +53,7 @@ exports.up = async function (db) {
       }
     },
     datetime: {
-      type: 'timestamp',
+      type: 'bigint',
       notNull: true
     },
     bidAmount: {

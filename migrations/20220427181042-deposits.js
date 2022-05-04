@@ -42,6 +42,7 @@ exports.up = async function (db) {
       type: 'int',
       unsigned: 'true',
       notNull: true,
+      unqiue:true,
       foreignKey: {
         name: 'deposits_users_fk',
         table: 'users',
@@ -53,7 +54,7 @@ exports.up = async function (db) {
       }
     },
     datetime: {
-      type: 'timestamp',
+      type: 'bigint',
       notNull: true
     },
     txHash: {
@@ -62,7 +63,8 @@ exports.up = async function (db) {
       notNull: true
     },
     depositApproved: {
-      type: 'boolean',
+      type: 'string',
+      length: 5,
       notNull: true
     }
   });

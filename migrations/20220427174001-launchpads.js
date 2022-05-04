@@ -53,7 +53,7 @@ exports.up = function (db) {
       }
     },
     startDateTime: {
-      type: 'timestamp',
+      type: 'bigint',
       notNull:true
     },
     amount: {
