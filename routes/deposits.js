@@ -1,16 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const crypto = require('crypto');
-const app = express()
+
 
 const { Deposit } = require('../models')
 
-const {
-    checkAdminAuthenticated
-} = require('../middlewares')
+
 
 const {
-    createCollectionsForm,
+    createDepositsForm,
     bootstrapField
 } = require('../forms')
 
@@ -24,74 +22,70 @@ router.get('/', async (req, res) => {
 
 router.get('/:deposit_id/update', async (req, res) => {
 
-    let collection = await Collection.where({
+    let deposit = await Deposit.where({
         id: req.params['deposit_id']
     }).fetch({ require: true })
-    const collectionForm = createCollectionsForm()
-    collectionForm.fields.txHash.value = collection.get('txHash')
-    // collectionForm.fields.address.value = collection.get('address')
-    // collectionForm.fields.supply.value = collection.get('supply')
-    // collectionForm.fields.baseTokenUri.value = collection.get('baseTokenUri')
-    // collectionForm.fields.profileUrl.value = collection.get('profileUrl')
-    // collectionForm.fields.bannerUrl.value = collection.get('bannerUrl')
-    // collectionForm.fields.collectionApproved.value = collection.get('collectionApproved')
-    //
-    res.render('collections/update', {
-        form: collectionForm.toHTML(bootstrapField),
-        collection: collection.toJSON()
+
+    const depositForm = createDepositsForm()
+    depositForm.fields.txHash.value = deposit.get('txHash')
+    depositForm.fields.nft_id.value = deposit.get('nft_id')
+    depositForm.fields.user_id.value = deposit.get('user_id')
+    depositForm.fields.datetime.value = deposit.get('datetime')
+    depositForm.fields.depositApproved.value = deposit.get('depositApproved')
+
+    res.render('deposits/update', {
+        form: depositForm.toHTML(bootstrapField),
+        deposit: deposit.toJSON()
     })
 })
 
 router.post('/:deposit_id/update', async (req, res) => {
     // fetch the product that we want to update
-    console.log('asdfasdf')
-    let collection = await Collection.where({
-        id: req.params['collection_id']
+    let deposit = await Deposit.where({
+        id: req.params['deposit_id']
     }).fetch({ require: true })
 
     // process the form
-    const collectionForm = createCollectionsForm();
+    const depositForm = createDepositsForm();
 
-    collectionForm.handle(req, {
+    depositForm.handle(req, {
         'success': async (form) => {
-            collection.set(form.data);
-            collection.save();
-            res.redirect('/collections');
+            deposit.set(form.data);
+            deposit.save();
+            req.flash("success_messages", "Update was successful");
+            res.redirect('/deposits');
         },
         'error': async (form) => {
-            res.render(`/collections/update`, {
-                'form': form.toHTML(bootstrapField),
-                'collection': collection.toJSON()
-            })
+            req.flash("error_messages", "Failed to update. Invalid data")
+            res.redirect(`/deposits/${req.params['deposit_id']}/update`)
         }
     })
 })
 
-router.get('/:collection_id/delete', async (req, res) => {
+router.get('/:deposit_id/delete', async (req, res) => {
     // fetch the product that we want to delete
-    const collection = await Collection.where({
-        'id': req.params.collection_id
+    const deposit = await Deposit.where({
+        'id': req.params.deposit_id
     }).fetch({
         require: true
     });
 
-    res.render('collections/delete', {
-        'collection': collection.toJSON()
+    res.render('deposits/delete', {
+        'deposit': deposit.toJSON()
     })
 });
 
-router.post('/:collection_id/delete', async (req, res) => {
+router.post('/:deposit_id/delete', async (req, res) => {
     // fetch the product that we want to delete
-    console.log('aaa')
-    const collection = await Collection.where({
-        'id': req.params.collection_id
+    const deposit = await Deposit.where({
+        'id': req.params.deposit_id
     }).fetch({
         require: true
     });
     console.log("deleting")
-    console.log(collection.get('id'))
-    await collection.destroy();
-    res.redirect('/collections')
+    console.log(deposit.get('id'))
+    await deposit.destroy();
+    res.redirect('/deposits')
 })
 
 module.exports = router;

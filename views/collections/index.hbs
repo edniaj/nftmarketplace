@@ -4,7 +4,8 @@
 <table class="table">
     <thead>
         <tr>
-            <th></th>
+            <th>Configuration</th>
+            <th>id</th>
             <th>name</th>
             <th>collection approved</th>
             <th>address</th>
@@ -22,6 +23,9 @@
             <td>
                 <a href="/collections/{{this.id}}/update" class="btn btn-primary btn-sm">Update</a>
                 <a href="/collections/{{this.id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+            <td>
+                {{id}}
             </td>
             <td>
                 {{name}}

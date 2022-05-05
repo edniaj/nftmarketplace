@@ -53,7 +53,7 @@ exports.up = async function (db) {
       }
     },
 
-    auctionGroups_id:
+    auctionGroup_id:
     {
       type: 'int',
       unsigned: 'true',
@@ -69,7 +69,6 @@ exports.up = async function (db) {
       }
     },
 
-
     minBidAmount: {
       type: 'decimal',
       notNull: true
@@ -78,6 +77,7 @@ exports.up = async function (db) {
       type: 'decimal',
       notNull: true
     },
+
 
   });
 };

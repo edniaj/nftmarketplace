@@ -140,9 +140,9 @@ const { checkAdminAuthenticated } = require('./middlewares');
 const adminRoutes = require('./routes/admin.js')
 const collectionRoutes = require('./routes/collections.js')
 const depositRoutes = require('./routes/deposits.js')
-
-
-
+const auctionGroupRoutes = require(`./routes/auctionGroups.js`)
+const auctionRoutes = require('./routes/auctions.js')
+const launchpadRoutes = require('./routes/launchpads.js')
 
 
 async function main() {
@@ -151,7 +151,10 @@ async function main() {
     })
     app.use('/admin', adminRoutes)
     app.use('/collections',checkAdminAuthenticated, collectionRoutes)
-    app.use('/deposits', depositRoutes)
+    app.use('/deposits',checkAdminAuthenticated, depositRoutes)
+    app.use('/auctionGroups', checkAdminAuthenticated, auctionGroupRoutes)
+    app.use('/auctions', checkAdminAuthenticated, auctionRoutes)
+    app.use('/launchpads', checkAdminAuthenticated, launchpadRoutes)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing

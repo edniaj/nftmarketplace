@@ -52,7 +52,7 @@ const createCollectionsForm = () => {
             cssClasses: {
                 label: ['form-label']
             },
-            validators:[validators.required()]
+            validators: [validators.required()]
         }),
         'supply': fields.string({
             required: true,
@@ -60,7 +60,7 @@ const createCollectionsForm = () => {
             cssClasses: {
                 label: ['form-label']
             },
-            'validators':[validators.integer()]
+            'validators': [validators.integer()]
         }),
         'baseTokenUri': fields.string({
             required: true,
@@ -95,13 +95,209 @@ const createCollectionsForm = () => {
             errorAfterField: true,
             cssClasses: {
                 label: ['form-label']
-            }
+            },
+            validators: [validators.maxlength(5)]
         }),
     })
 };
 
+const createDepositsForm = () => {
+    return forms.create({
+        'user_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+        'nft_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            'validators': [validators.integer()]
+        }),
+
+        'txHash': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            }
+        }),
+
+        'datetime': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+
+        'depositApproved': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.maxlength(5)]
+        }),
+    })
+};
+
+const createAuctionGroupsForm = () => {
+
+    return forms.create({
+
+        'name': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.required()]
+        }),
+        'auctionGroupsApproved': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.maxlength(5, "Only true or false")]
+        }),
+        'startDateTime': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+
+        'endDateTime': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+    })
+};
+
+const createAuctionsForm = () => {
+    return forms.create({
+
+        'user_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+        'nft_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            'validators': [validators.integer()]
+        }),
+
+        'auctionGroup_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+        'minBidAmount': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+        'bidInterval': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+    })
+};
+
+const createLaunchpadsForm = () => {
+    return forms.create({
+
+        'user_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+        'nft_id': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            'validators': [validators.integer()]
+        }),
+        'startDateTime': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+
+
+        'amount': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.integer()]
+        }),
+        'isApproved': fields.string({
+            required: true,
+            errorAfterField: true,
+            cssClasses: {
+                label: ['form-label']
+            },
+            validators: [validators.maxlength(5, "Only true or false")]
+        }),
+
+    })
+};
+
+
+
 module.exports = {
     createAdminLoginForm,
     createCollectionsForm,
+    createDepositsForm,
+    createAuctionGroupsForm,
+    createAuctionsForm,
+    createLaunchpadsForm,
     bootstrapField
 };

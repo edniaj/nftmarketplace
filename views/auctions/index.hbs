@@ -6,40 +6,40 @@
         <tr>
             <th>Configuration</th>
             <th>id</th>
-            <th>depositApproved</th>
-            <th>user_id</th>
             <th>nft_id</th>
-            <th>datetime</th>
-            <th>txHash</th>
-
+            <th>auctionGroup_id</th>
+            <th>user_id</th>
+            <th>minBidAmount</th>
+            <th>bidInterval</th>
         </tr>
 
     </thead>
     <tbody>
-        {{#each deposits}}
+        {{#each databaseData}}
         <tr>
             <td>
-                <a href="/deposits/{{this.id}}/update" class="btn btn-primary btn-sm">Update</a>
-                <a href="/deposits/{{this.id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+                <a href="/auctions/{{this.id}}/update" class="btn btn-primary btn-sm">Update</a>
+                <a href="/auctions/{{this.id}}/delete" class="btn btn-danger btn-sm">Delete</a>
             </td>
             <td>
                 {{id}}
             </td>
             <td>
-                {{depositApproved}}
+                {{nft_id}}
+            </td>
+            <td>
+                {{auctionGroup_id}}
             </td>
             <td>
                 {{user_id}}
             </td>
             <td>
-                {{nft_id}}
+                {{minBidAmount}}
             </td>
             <td>
-                {{datetime}}
+                {{bidInterval}}
             </td>
-            <td>
-                {{txHash}}
-            </td>
+
         </tr>
         {{/each}}
     </tbody>

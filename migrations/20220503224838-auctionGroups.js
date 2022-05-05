@@ -22,7 +22,11 @@ exports.up = async function (db) {
       primaryKey: true,
       autoIncrement: true
     },
-
+    name: {
+      type: "string",
+      length: 100,
+      notNull: true
+    },
     startDateTime: {
       type: 'bigint',
       notNull: true
@@ -31,6 +35,11 @@ exports.up = async function (db) {
       type: 'bigint',
       notNull: true
     },
+    auctionGroupsApproved: {
+      type: 'string',
+      length: 5,
+      notNull: false,
+    }
   });
 };
 

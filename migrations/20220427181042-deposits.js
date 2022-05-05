@@ -65,7 +65,7 @@ exports.up = async function (db) {
     depositApproved: {
       type: 'string',
       length: 5,
-      notNull: true
+      notNull: false
     }
   });
 };

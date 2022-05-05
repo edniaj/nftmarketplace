@@ -5,9 +5,7 @@ const app = express()
 
 const { Collection } = require('../models')
 
-const {
-    checkAdminAuthenticated
-} = require('../middlewares')
+
 
 const {
     createCollectionsForm,
@@ -56,17 +54,17 @@ router.post('/:collection_id/update', async (req, res) => {
         'success': async (form) => {
             collection.set(form.data);
             collection.save();
+            req.flash("success_messages", "Update was successful");
             res.redirect('/collections');
         },
         'error': async (form) => {
-            res.render(`/collections/update`, {
-                'form': form.toHTML(bootstrapField),
-                'collection': collection.toJSON()
-            })
+            req.flash("error_messages", "Failed to update. Invalid data")
+            res.redirect(`/collections/${req.params['collection_id']}/update`)
         }
     })
 })
 
+//
 router.get('/:collection_id/delete', async (req, res) => {
     // fetch the product that we want to delete
     const collection = await Collection.where({
