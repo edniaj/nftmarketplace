@@ -59,6 +59,7 @@ app.use(function (req, res, next) {
     res.locals.user = req.session.user;
     next();
 })
+
 // CSRF token remember to put inside the form
 app.use(csrf())
 app.use(function (err, req, res, next) {
@@ -130,6 +131,7 @@ app.use(function (req, res, next) {
 
 // CREATE PUBLIC API ROUTES
 const api = {
+    collections : require('./routes/api/collections.js')
     // products: require('./routes/api/products'),
     // users: require('./routes/api/users')
 }
@@ -155,12 +157,14 @@ async function main() {
     app.use('/auctionGroups', checkAdminAuthenticated, auctionGroupRoutes)
     app.use('/auctions', checkAdminAuthenticated, auctionRoutes)
     app.use('/launchpads', checkAdminAuthenticated, launchpadRoutes)
+    app.use('/api/collections',api.collections)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing
     // app.use('/api/users', express.json(), api.users);
 
 }
+
 main();
 
 
