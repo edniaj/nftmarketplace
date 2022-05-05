@@ -1,5 +1,8 @@
+const userDao = require('../dao/user')
+
 class UserSerivce {
-    createPerson(username, password, walletAddress) {
-        
+    async createUser(userDTO) {
+        const {username, password, walletAddress} = userDTO
+            await userDao.createUser(username,password, walletAddress)
     }
 }
