@@ -6,6 +6,8 @@ const csrf = require('csurf')
 
 require('dotenv').config();
 
+
+
 // setInterval(function(){
 //     let d = new Date();
 //     if (d.getHours() == 12) {
@@ -61,7 +63,22 @@ app.use(function (req, res, next) {
 })
 
 // CSRF token remember to put inside the form
-app.use(csrf())
+
+const csrfInstance = csrf();
+app.use(function (req, res, next) {
+    // exclude /checkout/process_payment for CSRF
+    if (req.url === '/checkout/process_payment' || req.url.slice(0, 5) == "/api/") {
+        return next()
+    }
+    csrfInstance(req, res, next)
+})
+
+app.use(function (req, res, next) {
+    if (req.csrfToken) res.locals.csrfToken = req.csrfToken()
+    next()
+})
+
+
 app.use(function (err, req, res, next) {
     if (err && err.code == "EBADCSRFTOKEN") {
         req.flash('error_messages', 'The form has expired. Please try again');
@@ -70,10 +87,7 @@ app.use(function (err, req, res, next) {
         next()
     }
 });
-app.use(function (req, res, next) {
-    res.locals.csrfToken = req.csrfToken()
-    next()
-})
+
 
 // display in the hbs file
 app.use(function (req, res, next) {
@@ -83,42 +97,8 @@ app.use(function (req, res, next) {
 })
 
 
-// app.use(csrf());R
-// const csurfInstance = csrf();  // creating a prox of the middleware
-// app.use(function(req,res,next){
-//     // if it is webhook url, then call next() immediately
-//     // or if the url is for the api, then also exclude from csrf
-//     if (req.url === '/checkout/process_payment' || 
-//         req.url.slice(0,5)=='/api/') {
-//         next();
-//     } else {
-//         csurfInstance(req,res,next);
-//     }
 
 
-// })
-
-// // middleware to share the csrf token with all hbs files
-// app.use(function(req,res,next){
-//     // the req.csrfToken() generates a new token
-//     // and save its to the current session
-//     if (req.csrfToken) {
-//         res.locals.csrfToken = req.csrfToken();
-//     }
-//     next();
-// })
-
-// // middleware to handle csrf errors
-// // if a middleware function takes 4 arguments
-// // the first argument is error
-// app.use(function(err, req,res,next){
-//     if (err && err.code == "EBADCSRFTOKEN") {
-//         req.flash('error_messages', "The form has expired. Please try again");
-//         res.redirect('back'); // go back one page
-//     } else {
-//         next();
-//     }
-// })
 
 // share the details of the logged in user with all routes
 app.use(function (req, res, next) {
@@ -131,9 +111,8 @@ app.use(function (req, res, next) {
 
 // CREATE PUBLIC API ROUTES
 const api = {
-    collections : require('./routes/api/collections.js')
-    // products: require('./routes/api/products'),
-    // users: require('./routes/api/users')
+    collections: require('./routes/api/collection.js'),
+    users: require('./routes/api/users.js')
 }
 
 
@@ -152,12 +131,13 @@ async function main() {
         res.send("Welcome")
     })
     app.use('/admin', adminRoutes)
-    app.use('/collections',checkAdminAuthenticated, collectionRoutes)
-    app.use('/deposits',checkAdminAuthenticated, depositRoutes)
+    app.use('/collections', checkAdminAuthenticated, collectionRoutes)
+    app.use('/deposits', checkAdminAuthenticated, depositRoutes)
     app.use('/auctionGroups', checkAdminAuthenticated, auctionGroupRoutes)
     app.use('/auctions', checkAdminAuthenticated, auctionRoutes)
     app.use('/launchpads', checkAdminAuthenticated, launchpadRoutes)
-    app.use('/api/collections',api.collections)
+    app.use('/api/collections', api.collections)
+    app.use('/api/users', api.users)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing

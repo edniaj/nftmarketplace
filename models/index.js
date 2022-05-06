@@ -132,6 +132,9 @@ const Sale = bookshelf.model('Sale', {
     },
 })
 
+const BlacklistedToken = bookshelf.model('BlacklistedToken',{
+    tableName: 'blacklisted_tokens'
+})
 
 
 module.exports = {
@@ -146,5 +149,6 @@ module.exports = {
     Listing,
     Launchpad,
     Trait,
-    Deposit
+    Deposit,
+    BlacklistedToken
 }

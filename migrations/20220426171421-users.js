@@ -25,7 +25,8 @@ exports.up = function (db) {
     username: {
       type: "string",
       length: 100,
-      notNull: true
+      notNull: true,
+      unique: true
     },
     password: {
       type: 'string',

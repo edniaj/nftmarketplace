@@ -8,6 +8,7 @@ var seed;
   * We receive the dbmigrate dependency from dbmigrate initially.
   * This enables us to not have to rely on NODE_PATH.
   */
+ 
 exports.setup = function (options, seedLink) {
   dbm = options.dbmigrate;
   type = dbm.dataType;
@@ -17,15 +18,15 @@ exports.setup = function (options, seedLink) {
 exports.up = async function (db) {
   await db.insert('users',
     ['username', 'password', 'walletAddress'],
-    ['admin', 'test', '0xdB367A4ff8F136A9c1722E2C512110C2F1Bd0CE4'])
+    ['admin', 'n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=', '0xdB367A4ff8F136A9c1722E2C512110C2F1Bd0CE4'])
 
   await db.insert('users',
     ['username', 'password', 'walletAddress'],
-    ['Tom', 'test', '0x4d34b0eEb44D334fC00dA400e1E26FeEA6133793'])
+    ['Tom', 'n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=', '0x4d34b0eEb44D334fC00dA400e1E26FeEA6133793'])
 
   await db.insert('users',
     ['username', 'password', 'walletAddress'],
-    ['Tan Ah Gao', 'test', '0xD22830CE924277566138fa82779708B7f28c931e'])
+    ['Tan Ah Gao', 'n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=', '0xD22830CE924277566138fa82779708B7f28c931e'])
 
   await db.insert('collections',
     ['name', 'address', 'baseTokenUri', 'supply', 'profileUrl', 'bannerUrl', 'collectionApproved'],
