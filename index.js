@@ -111,8 +111,9 @@ app.use(function (req, res, next) {
 
 // CREATE PUBLIC API ROUTES
 const api = {
-    collections: require('./routes/api/collection.js'),
-    users: require('./routes/api/users.js')
+    collections: require('./routes/api/collections.js'),
+    users: require('./routes/api/users.js'),
+    nfts : require('./routes/api/nft.js')
 }
 
 
@@ -138,6 +139,7 @@ async function main() {
     app.use('/launchpads', checkAdminAuthenticated, launchpadRoutes)
     app.use('/api/collections', api.collections)
     app.use('/api/users', api.users)
+    app.use(`/api/nfts`, api.nfts)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing

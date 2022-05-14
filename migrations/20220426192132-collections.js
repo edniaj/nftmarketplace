@@ -53,7 +53,11 @@ exports.up = function (db) {
       type: "string",
       length:5,
       notNull: true
-    }
+    },
+    description: {
+      type: "string",
+      length: 500
+    },
   }
   );
 

@@ -31,7 +31,7 @@ exports.up = async function (db) {
     status: {
       type: 'string',
       length: 100,
-      notNull: true
+      notNull: false 
     },
     collection_id:
     {

@@ -42,6 +42,7 @@ const Trait = bookshelf.model('Trait', {
 
 const Nft = bookshelf.model('Nft', {
     tablename: 'nfts',
+
     collection() {
         return this.belongsTo('Collection')
     },
@@ -59,7 +60,8 @@ const Nft = bookshelf.model('Nft', {
     },
     listing() {
         return this.hasMany('listing')
-    }
+    },
+    
 
 })
 
@@ -132,9 +134,11 @@ const Sale = bookshelf.model('Sale', {
     },
 })
 
-const BlacklistedToken = bookshelf.model('BlacklistedToken',{
+const BlacklistedToken = bookshelf.model('BlacklistedToken', {
     tableName: 'blacklisted_tokens'
 })
+
+
 
 
 module.exports = {

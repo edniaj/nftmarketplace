@@ -1,0 +1,3313 @@
+[
+    {
+        "name": "CloneX #2090",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "SPINNING"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Jellyfish Tee"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19150.png"
+    },
+    {
+        "name": "CloneX #1676",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "RBY CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CAMO BBL Vest"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "RD LAZER"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19151.png"
+    },
+    {
+        "name": "CloneX #10154",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Kawaii"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLU ORNG BNDN Shirt"
+            },
+            {
+                "trait_type": "Type",
+                "value": "ICE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19152.png"
+    },
+    {
+        "name": "CloneX #19",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "S-HIRE G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JS HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "VSN Glasses"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19153.png"
+    },
+    {
+        "name": "CloneX #12965",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GOAT HRNS"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "RBY CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WAGMI Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Assault Glasses"
+            },
+            {
+                "trait_type": "Type",
+                "value": "Divine"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19154.png"
+    },
+    {
+        "name": "CloneX #18231",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "PSYCHIC LAZER"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "META TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SPACE TRIP Tee"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19155.png"
+    },
+    {
+        "name": "CloneX #19137",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Hacker"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SG-PDLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK GM Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19156.png"
+    },
+    {
+        "name": "CloneX #7451",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLCK Surprised"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Curtains"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "STRIPE Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19157.png"
+    },
+    {
+        "name": "CloneX #2643",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "ZK Bucket"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK BKR JCKT"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK-BLCK"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19158.png"
+    },
+    {
+        "name": "CloneX #6981",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Curtains"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "MONO Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19159.png"
+    },
+    {
+        "name": "CloneX #10028",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RD Wrap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK Fur Coat"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ICED GRILLS"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19160.png"
+    },
+    {
+        "name": "CloneX #13176",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK-BLU"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Energy Wings"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN BWLCUT"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "CYN Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JS HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Cyber Bindi"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19161.png"
+    },
+    {
+        "name": "CloneX #10481",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Head Scarf"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT Utility Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19162.png"
+    },
+    {
+        "name": "CloneX #7308",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Back",
+                "value": "DEMONZ"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "Band-Aid"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRED Visor"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "VVS PANDA"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SPACE TRIP Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "BTC"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "SLVR Round"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19163.png"
+    },
+    {
+        "name": "CloneX #3548",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Robotic Arms"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-BLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX HOODIE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19164.png"
+    },
+    {
+        "name": "CloneX #9868",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "PURP G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "Space PFA JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19165.png"
+    },
+    {
+        "name": "CloneX #19869",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "On-Sight TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLU HAWAIIAN Shirt"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19166.png"
+    },
+    {
+        "name": "CloneX #5598",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLND Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PURP HiTECH Dress"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "Neo Earrings"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19167.png"
+    },
+    {
+        "name": "CloneX #3772",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "SPINNING"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RCSave Cap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "MONO Fur Coat"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Cyber Eye Patch"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19168.png"
+    },
+    {
+        "name": "CloneX #1673",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "CLSD BRWN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "META TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK BWLCUT"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RD BBL Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19169.png"
+    },
+    {
+        "name": "CloneX #7002",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "RNBW"
+            },
+            {
+                "trait_type": "Back",
+                "value": "GRY UNDRWRLD WINGZ"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "WEBZ TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Bunny"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT KBA JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Assault Glasses"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "SLVR STUD"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Tan Tan Bo"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19170.png"
+    },
+    {
+        "name": "CloneX #4816",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Cyber Dreads"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK VARSITY JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "DRIP VISION"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19171.png"
+    },
+    {
+        "name": "CloneX #11109",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "LIME GANG"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "PTRA Earring"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19172.png"
+    },
+    {
+        "name": "CloneX #19589",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT BRDZ"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "LIME GANG"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Snow Storm"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "RTFKT Earrings"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Angry"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19173.png"
+    },
+    {
+        "name": "CloneX #8309",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "GRN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "369 TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "IRI BLW UP JCKT"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19174.png"
+    },
+    {
+        "name": "CloneX #18538",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU-PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "STARZ TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "CYBR DRDZ"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "ICED G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT BKR JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "VSN Glasses"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19175.png"
+    },
+    {
+        "name": "CloneX #2684",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-RD"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RD VARSITY JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ICED GRILLZ"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19176.png"
+    },
+    {
+        "name": "CloneX #15509",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "GRN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "Sword VSN  TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GM MONO HOODIE"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Romantico"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19177.png"
+    },
+    {
+        "name": "CloneX #10224",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU-PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "333 VSN TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Party Hat"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RFX Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19178.png"
+    },
+    {
+        "name": "CloneX #12132",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RCSave Cap"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK GM Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "3D"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Romantico"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19179.png"
+    },
+    {
+        "name": "CloneX #6972",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "META TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "PURP Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "LIME GANG"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19180.png"
+    },
+    {
+        "name": "CloneX #4977",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "YLLW Breezy"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Cowboy"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GM MONO HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "DRIP VISION"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Tan Tan Bo"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19181.png"
+    },
+    {
+        "name": "CloneX #245",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP BRDZ"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK Fur Coat"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "RNBW GRILLS"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19182.png"
+    },
+    {
+        "name": "CloneX #2214",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "RD CRYSTL"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "VSN TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "MEDUZA"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RD VARSITY JCKT"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19183.png"
+    },
+    {
+        "name": "CloneX #11730",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Sword"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Spiked"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BRWN TCTL Vest"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Eye Patch"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19184.png"
+    },
+    {
+        "name": "CloneX #15334",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "YLLW"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "369 TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RD Hairclip"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK Waistcoat"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "VSN Glasses"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19185.png"
+    },
+    {
+        "name": "CloneX #15903",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRWN Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GRN Fur Coat"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Cyber Eye Patch"
+            },
+            {
+                "trait_type": "Type",
+                "value": "STONED"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19186.png"
+    },
+    {
+        "name": "CloneX #19335",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "CLSD BLU"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "EKO TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "PURP G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SD Tee"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19187.png"
+    },
+    {
+        "name": "CloneX #13550",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "YLLW"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Sound Wave"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "LIME GANG"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19188.png"
+    },
+    {
+        "name": "CloneX #117",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Fro"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Tee"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SFTY Mask"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19189.png"
+    },
+    {
+        "name": "CloneX #13247",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Cowboy"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK PIN BKR JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Cyber Eyes"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "Cross Earring"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19190.png"
+    },
+    {
+        "name": "CloneX #12619",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Spiked"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "THRML PFA JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "GLD GRILLZ"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19191.png"
+    },
+    {
+        "name": "CloneX #4223",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK-BLU"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YLLW Spiked"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PURP CAMO PFA JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Cigar"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19192.png"
+    },
+    {
+        "name": "CloneX #2038",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Stylish"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SG-PDLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BONE PFA JCKT"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19193.png"
+    },
+    {
+        "name": "CloneX #17026",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BRWN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "TRi War TAT"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GPURP Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "DRIP VISION"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Romantico"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19194.png"
+    },
+    {
+        "name": "CloneX #1305",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "YLLW Breezy"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "META TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Head Scarf"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK UNDRWRLD Uniform"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILEY RNBW"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19195.png"
+    },
+    {
+        "name": "CloneX #8753",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "GRN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "HRUS 333 TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "KAWAII CHRM"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "HVY MTL HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Aviator"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19196.png"
+    },
+    {
+        "name": "CloneX #19392",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK GM Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19197.png"
+    },
+    {
+        "name": "CloneX #15928",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Hairclip"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "RD ZK-BEADZ"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "NEON HOODIE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19198.png"
+    },
+    {
+        "name": "CloneX #2563",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "CLSD PNK"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Quiff"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "STRIPE Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19199.png"
+    },
+    {
+        "name": "CloneX #7083",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "DAD Cap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RD BBL Vest"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19200.png"
+    },
+    {
+        "name": "CloneX #4464",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU-PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "TRi HRUS TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRWN 2 Horns"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "CYN CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SPACE TRIP Tee"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19201.png"
+    },
+    {
+        "name": "CloneX #17604",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Stylish"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "S-HIRE G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Tee"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "PTRA Earring"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19202.png"
+    },
+    {
+        "name": "CloneX #5204",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Otaku"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT BKR JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Romantico"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19203.png"
+    },
+    {
+        "name": "CloneX #15921",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Sword"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SG-PDLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK-BLK Waistcoat"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19204.png"
+    },
+    {
+        "name": "CloneX #1718",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLU ORNG BNDN Shirt"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Angry"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19205.png"
+    },
+    {
+        "name": "CloneX #3598",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK MoHWK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Future Dress"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ICED GRILLZ"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19206.png"
+    },
+    {
+        "name": "CloneX #3551",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN BWLCUT"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "S-HIRE G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "Job Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "SPiKED BILLIONAIRE"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "GLD Round"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Angry"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19207.png"
+    },
+    {
+        "name": "CloneX #9698",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "V2 BLCK SKL GRL"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "GLD GRILLZ"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19208.png"
+    },
+    {
+        "name": "CloneX #8477",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Quiff"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PURP Utility Vest"
+            },
+            {
+                "trait_type": "Type",
+                "value": "Divine"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19209.png"
+    },
+    {
+        "name": "CloneX #13585",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Curtains"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "3RD Eye"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19210.png"
+    },
+    {
+        "name": "CloneX #18704",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "HALF-OPEN"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-BLU"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "MONO Tee"
+            },
+            {
+                "trait_type": "Back",
+                "value": "GRN UNDRWRLD WINGZ"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19211.png"
+    },
+    {
+        "name": "CloneX #1498",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "28 JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Lollipop"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19212.png"
+    },
+    {
+        "name": "CloneX #17795",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "CHRM"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX HOODIE"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "VVS STUD"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19213.png"
+    },
+    {
+        "name": "CloneX #895",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK ORNG Fur Coat"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Glass X"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19214.png"
+    },
+    {
+        "name": "CloneX #3359",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Curtains"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "STRIPED POLO"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Romantico"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19215.png"
+    },
+    {
+        "name": "CloneX #9077",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Robotic Arms"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Top Hat"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "RBY Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK PIN BKR JCKT"
+            },
+            {
+                "trait_type": "Type",
+                "value": "ICE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19216.png"
+    },
+    {
+        "name": "CloneX #16817",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLND Quiff"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "BLCK-GLD ZK-BEADZ"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK TCTL Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19217.png"
+    },
+    {
+        "name": "CloneX #1437",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Robotic Arms"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Curtains"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JELLYFISH BLW UP JCKT"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19218.png"
+    },
+    {
+        "name": "CloneX #7571",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "GRN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "PROMO TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RD Braid"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "CHRM"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PURP CAMO PFA JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Aviator"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19219.png"
+    },
+    {
+        "name": "CloneX #5150",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "LoneSome Cowboy"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "Blade CHKR"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT Jellyfish Tee"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19220.png"
+    },
+    {
+        "name": "CloneX #7109",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Robotic Arms"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Hacker"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "Blade Melt Tee"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "RNBW GRILLS"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19221.png"
+    },
+    {
+        "name": "CloneX #13065",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Ponytail"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "Blade CHKR"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RTFKT CHROME Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Eye Patch"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "RTFKT Earrings"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19222.png"
+    },
+    {
+        "name": "CloneX #14611",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RD Spike"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GRN Fur Coat"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Angry"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK2"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19223.png"
+    },
+    {
+        "name": "CloneX #14896",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "CLSD PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "CLNX TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK BWLCUT"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19224.png"
+    },
+    {
+        "name": "CloneX #17680",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SD Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19225.png"
+    },
+    {
+        "name": "CloneX #8565",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Hairclip"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "ICED G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK GRNG Dress"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "BILLIONAIRE"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "Neo Earrings"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILE"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19226.png"
+    },
+    {
+        "name": "CloneX #10717",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU MoHWK"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "PURP Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GM HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Cyber Eye Patch"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19227.png"
+    },
+    {
+        "name": "CloneX #3251",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Head Scarf"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GRN UNDRWRLD Uniform"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Kawaii Patch"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19228.png"
+    },
+    {
+        "name": "CloneX #2516",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRED Buns"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "TRPPY HiTECH GOWN"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Jagged RNBW"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19229.png"
+    },
+    {
+        "name": "CloneX #15556",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU MoHWK"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "DRIP CHRM"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK Utility Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19230.png"
+    },
+    {
+        "name": "CloneX #15389",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "CYBR DRDZ"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "S-PDLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JS Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19231.png"
+    },
+    {
+        "name": "CloneX #19003",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLU-PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "EKO TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRWN Long"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK VARSITY JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "BTC"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19232.png"
+    },
+    {
+        "name": "CloneX #12440",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Open Skull Helmet"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "TRPPY HiTECH GOWN"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19233.png"
+    },
+    {
+        "name": "CloneX #10763",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN BWLCUT"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "MRBLE G-Link"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK GM Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "BILLIONAIRE"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "SLVR STUD"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19234.png"
+    },
+    {
+        "name": "CloneX #18969",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "ORNG Bandana TECH Cap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PURP CAMO PFA JCKT"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19235.png"
+    },
+    {
+        "name": "CloneX #4825",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-BLU"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CAMO PFA JCKT"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19236.png"
+    },
+    {
+        "name": "CloneX #19342",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLND Quiff"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "SD Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19237.png"
+    },
+    {
+        "name": "CloneX #1636",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Cyber Dreads"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "BILLIONAIRE"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Cigar"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19238.png"
+    },
+    {
+        "name": "CloneX #15241",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "WARNING TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "RD BBL Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19239.png"
+    },
+    {
+        "name": "CloneX #5512",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "MNT Beret Braids"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SLVR CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX Tee"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "Gold Round Earrings"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19240.png"
+    },
+    {
+        "name": "CloneX #7585",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "AWAKEN"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "DAD Cap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BRWN TCTL Vest"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Alien"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19241.png"
+    },
+    {
+        "name": "CloneX #16243",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-RD"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "S-HIRE CBLE"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GM HOODIE"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19242.png"
+    },
+    {
+        "name": "CloneX #8463",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Back",
+                "value": "Sword"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRWN 1 Horn"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GRDNT PFA JCKT"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19243.png"
+    },
+    {
+        "name": "CloneX #3332",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BRWN"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Ponytail"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "FLOOR Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19244.png"
+    },
+    {
+        "name": "CloneX #498",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "CLNX HOODIE"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Aviator"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "GLD STUD"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19245.png"
+    },
+    {
+        "name": "CloneX #1896",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BRWN"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "Angry TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK Unkept"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "GLD Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK HAWAIIAN Shirt"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "SLVR STUD"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Mustache"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19246.png"
+    },
+    {
+        "name": "CloneX #3100",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BRWN Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLU Waistcoat"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19247.png"
+    },
+    {
+        "name": "CloneX #15247",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK-BLU"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "RCSave Cap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WAGMI Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Aviator"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19248.png"
+    },
+    {
+        "name": "CloneX #10811",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GM MONO HOODIE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19249.png"
+    },
+    {
+        "name": "CloneX #4136",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Wrap"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT BKR JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "ROBO"
+            },
+            {
+                "trait_type": "Type",
+                "value": "ICE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19250.png"
+    },
+    {
+        "name": "CloneX #719",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BRWN"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Curtains"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JS Tee"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Gas Mask"
+            },
+            {
+                "trait_type": "Type",
+                "value": "STONED"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19251.png"
+    },
+    {
+        "name": "CloneX #18206",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Tech JCKT"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "RD DRGN Mask"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19252.png"
+    },
+    {
+        "name": "CloneX #19751",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PNK"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLCK KO2 Tiara"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "VVS PANDA"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Jellyfish Tee"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            },
+            {
+                "trait_type": "Type",
+                "value": "ICE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19253.png"
+    },
+    {
+        "name": "CloneX #19023",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Angel"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Otaku"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "MONO Fur Coat"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "RD DRGN Mask"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19254.png"
+    },
+    {
+        "name": "CloneX #529",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "RNBW"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "SKULL WEBZ TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "Fro"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "PNK ZK-BEADZ"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLCK Jellyfish Tee"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19255.png"
+    },
+    {
+        "name": "CloneX #7142",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "BLCK Surprised"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "WHT Unkept"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "JS Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "Eye Patch"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "Cross Earring"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Lollipop"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19256.png"
+    },
+    {
+        "name": "CloneX #16239",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP BRDZ"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "RBY Two Piece"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "STRIPE Tee"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19257.png"
+    },
+    {
+        "name": "CloneX #7455",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Hacker"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "V5 WHT SKL GRL"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Pilot Mask"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MK1"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19258.png"
+    },
+    {
+        "name": "CloneX #12362",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "SKULL WEBZ TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "DAD Cap"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "SG-PDLCK"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "FLOOR Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "3RD Eye"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19259.png"
+    },
+    {
+        "name": "CloneX #17788",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP BRDZ"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WAGMI Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "SPiKED BILLIONAIRE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19260.png"
+    },
+    {
+        "name": "CloneX #7965",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "YU-BRED"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BLU BLW UP JCKT"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "VSN Glasses"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "SMILE"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19261.png"
+    },
+    {
+        "name": "CloneX #300",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "PURP"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "GRN Stylish"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "GRN HAWAIIAN Shirt"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19262.png"
+    },
+    {
+        "name": "CloneX #18590",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Robot"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PURP Shape Up"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "PNK BBL Vest"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19263.png"
+    },
+    {
+        "name": "CloneX #14573",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Demon"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "WIDE-OPEN"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "PNK Shape Up"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "VVS PANDA"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT Jellyfish Tee"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "OTT Future Vision"
+            },
+            {
+                "trait_type": "Mouth",
+                "value": "Mustache"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19264.png"
+    },
+    {
+        "name": "CloneX #6617",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone with even one Murakami trait please read the terms regarding third-party content here: https://rtfkt.com/legal-2B.\n\nYou are not entitled to a commercial license if you own an avatar with any traits created by Murakami.",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "CLSD YLLW Breezy"
+            },
+            {
+                "trait_type": "Back",
+                "value": "GRN UNDRWRLD WINGZ"
+            },
+            {
+                "trait_type": "Facial Feature",
+                "value": "369 VSN TAT"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "BLU Hacker"
+            },
+            {
+                "trait_type": "Jewelry",
+                "value": "Bladez CHKR"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "WHT Jellyfish Tee"
+            },
+            {
+                "trait_type": "Accessories",
+                "value": "RTFKT Earrings"
+            },
+            {
+                "trait_type": "Type",
+                "value": "MURAKAMI DRIP"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19265.png"
+    },
+    {
+        "name": "CloneX #15080",
+        "description": "🧬 CLONE X 🧬\n\n20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸\n\nIf you own a clone without any Murakami trait please read the terms regarding RTFKT - Owned Content here: https://rtfkt.com/legal-2A\n\nYou are also entitled to a commercial license, please read the terms to that here: https://rtfkt.com/legal-2C",
+        "attributes": [
+            {
+                "trait_type": "DNA",
+                "value": "Human"
+            },
+            {
+                "trait_type": "Eye Color",
+                "value": "YLLW"
+            },
+            {
+                "trait_type": "Hair",
+                "value": "FLME Head Scarf"
+            },
+            {
+                "trait_type": "Clothing",
+                "value": "BRWN Fur Coat"
+            },
+            {
+                "trait_type": "Eyewear",
+                "value": "DRIP VISION"
+            }
+        ],
+        "image": "https://clonex-assets.rtfkt.com/images/19266.png"
+    }
+]
