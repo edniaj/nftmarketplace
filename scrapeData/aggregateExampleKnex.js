@@ -15,12 +15,6 @@ const knex = require('knex')({
     }
 })
 
-// let data = fs.readFileSync('./azuki.txt',
-//               {encoding:'utf8', flag:'r'});
-
-// data = JSON.parse(data)
-
-
 const convertTraits = async () => {
     let rawData = await fs.readFileSync('./bayc.txt',
         { encoding: 'utf8', flag: 'r' });
@@ -57,7 +51,7 @@ const convertTraits = async () => {
 
 }
 
-const main = async () => {
+const main = async (id) => {
     // Simple query using where - like - 
     // data = await knex('collections').select().where('name', 'like', '%o%').limit(1)
 
@@ -91,7 +85,7 @@ const main = async () => {
 
 
     // We will create cache table to insert value 
-    let id = 2
+
     data = await knex('nfts_traits').select().innerJoin(`traits`, `nfts_traits.trait_id`, `traits.id`).where(`traits.collection_id`, `=`, `${id}`)
 
 
@@ -122,16 +116,17 @@ const main = async () => {
                     frequency: dict[trait][value]
                 }
             )
-            console.log(`type: ${trait} value: ${value} : ${dict[trait][value]} collection_id:${id}`)
+            // console.log(`type: ${trait} value: ${value} : ${dict[trait][value]} collection_id:${id}`)
         })
     })
 
-    await knex(`traitCaches`).insert(writeDict).then(x => console.log(x)).catch(err => console.error(err))
+    console.log(writeDict)
+    // await knex(`traitCaches`).insert(writeDict).then(x => console.log(x)).catch(err => console.error(err))
     // console.log(dict)
 
 
 }
 
 
-main()
+main(3)
 // convertTraits()

@@ -15,7 +15,7 @@ exports.setup = function (options, seedLink) {
 };
 
 exports.up = function (db) {
-  return db.createTable('launchpads', {
+  return db.createTable('carts', {
     id: {
       type: 'int',
       unsigned: 'true',
@@ -28,7 +28,7 @@ exports.up = function (db) {
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'launchpads_users_fk',
+        name: 'carts_users_fk',
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
@@ -37,14 +37,14 @@ exports.up = function (db) {
         mapping: 'id'
       }
     },
-    nft_id:
+    listing_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'launchpads_nfts_fk',
-        table: 'nfts',
+        name: 'carts_listings_fk',
+        table: 'listings',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'
@@ -52,23 +52,13 @@ exports.up = function (db) {
         mapping: 'id'
       }
     },
-    startDateTime: {
-      type: 'bigint',
-      notNull: true
-    },
-    amount: {
-      type: 'decimal'
-    },
-    isApproved: {
-      type: 'string',
-      length: 5,
-      notNull: false,
-    }
-  })
-};
+
+  }
+)}
+
 
 exports.down = function (db) {
-  return db.dropTable('launchpads');
+  return null;
 };
 
 exports._meta = {

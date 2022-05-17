@@ -37,14 +37,14 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    auction_id:
+    nft_id:
     {
       type: 'int',
       unsigned: 'true',
       notNull: true,
       foreignKey: {
-        name: 'auctions_bids_fk',
-        table: 'auctions',
+        name: 'bids_nfts_fk',
+        table: 'nfts',
         rules: {
           onDelete: 'CASCADE',
           onUpdate: 'RESTRICT'

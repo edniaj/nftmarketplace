@@ -4,7 +4,7 @@ class CollectionController {
     async readAll(req, res) {
         try{
             let fetchedData = await CollectionService.readAll()
-            console.log(fetchedData)
+            // console.log(fetchedData)
             res.status(200)
             res.send(fetchedData)
         } catch(e) {
@@ -18,9 +18,8 @@ class CollectionController {
         try{
             let id = req.query['id']
             let page = req.query['page']
-            let temp = req.query['filter'] ? JSON.parse(req.query['filter']) : ''
-            console.log(temp)
-            let fetchedData = await CollectionService.readCollection(id,page)
+            let filterValue = req.query['filter'] ? JSON.parse(req.query['filter']) : ''
+            let fetchedData = await CollectionService.readCollection(id,page, filterValue)
             res.status(200)
             res.send(fetchedData)
         } catch (e) {

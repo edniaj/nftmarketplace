@@ -113,7 +113,8 @@ app.use(function (req, res, next) {
 const api = {
     collections: require('./routes/api/collections.js'),
     users: require('./routes/api/users.js'),
-    nfts : require('./routes/api/nft.js')
+    nfts : require('./routes/api/nft.js'),
+    carts : require('./routes/api/carts.js')
 }
 
 
@@ -140,6 +141,7 @@ async function main() {
     app.use('/api/collections', api.collections)
     app.use('/api/users', api.users)
     app.use(`/api/nfts`, api.nfts)
+    app.use(`/api/carts`, api.carts)
     // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
     // app.use('/checkout', checkoutRoutes);
     // app.use('/api/products', express.json(), api.products); // api means front facing
@@ -168,5 +170,6 @@ app.listen(process.env.PORT, function (req, res) {
 // DSL
 // web hook
 // api endponit for stripes to ping u once they are done
+
 
 

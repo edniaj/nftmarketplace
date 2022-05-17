@@ -60,15 +60,61 @@ const test = () => {
 }
 
 
-const { Trait, Nft, Collection} = require('../models')
+// This function is meant to clean up data because I can't use ORM hasmany function.
+const testFunction = async (filterValue) => {
+    const filterMethod = (data, filterValue) => {
+        const filterKeys = Object.keys(filterValue)
+        AllTokens = Object.keys(data)
+        let returnData = []
+        AllTokens.forEach(token => {
+            let addToken = true
 
-const writeFunction = async() => {
-    const nft = new Nft()
-    data = await nft.fetch({withRelated: 'traits'})
-        
+            filterKeys.forEach(key => {
+                if (data[token]['traits'].hasOwnProperty(key)) {
+                    // if traits[key] is not inside filterValue[key] (an array) then you shouldn't add
+                    if (!(filterValue[key].includes(data[token][`traits`][key]))) addToken = false
+                } else {
+                    // doesn't have traits
+                    addToken = false
+                }
+            })
 
-    console.log(data)
+            if (addToken) returnData.push(token)
+
+        })
+        return returnData
+    }
+
+    let sendData = await knex('nfts_traits').select().innerJoin('traits', 'traits.id', `nfts_traits.trait_id`).innerJoin(`nfts`, `nfts.id`, `nfts_traits.nft_id`).orderBy(`nfts.tokenId`)
+    let dict = {}
+    sendData.forEach(item => {
+        let { tokenId, status, traitType, traitValue, imageUrl } = item
+        dict[tokenId]
+            ? dict[tokenId] = dict[tokenId]['traits'] = { ...dict[tokenId], 'traits': { ...dict[tokenId]['traits'], [traitType]: traitValue } }
+            : dict[tokenId] = { 'traits': { [traitType]: traitValue }, status, imageUrl }
+
+    })
+    Object.keys(filterValue).forEach(key => {
+        console.log(filterValue[key].length)
+        if (filterValue[key].length == 0) delete filterValue[key]
+    })
+    console.log(filterValue)    
+    finalValue = filterMethod(dict, filterValue)
+    console.log(finalValue)
+
 }
-writeFunction()
+const filterValue = {
+    Background: ['Purple', 'Yellow', 'Blue'],
+    Clothes: ['Striped Tee'],
+    Earring: ['Diamond Stud'],
+    test: []
+}
+
+
+
+yo = parseInt('69') ? 'yes' : 'no'
+console.log(yo)
+
+
 // test()
 // main()

@@ -3,9 +3,6 @@ const fs = require('fs')
 const path = require('path')
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
 
-const { User } = require('../models')
-const { Nft } = require('../models')
-const { Trait } = require('../models')
 
 const knex = require('knex')({
     'client': process.env.DB_DRIVER,
@@ -21,7 +18,7 @@ const knex = require('knex')({
 })
 
 
-const readFiles = ['./bayc.txt']
+
 
 
 const addTraits = async (traitsDict, collectionId) => {
@@ -134,15 +131,16 @@ const convertTraits = async (x, collectionId) => {
     })
     await addTraits(traitsDict, collectionId)
     await knex('nfts').insert(writeNfts).then(x => console.log(x))
-    await setPivotTable(2, jsonCopy)
+    await setPivotTable(collectionId, jsonCopy)
     // addTraits(traitsDict, collectionId)
 
 
 }
 
 const main = async () => {
-    collectionId = 2 // change this value
-    readFiles.forEach(x => {
+    const readFiles = ['./azuki.txt']
+    collectionId = 4 // change this value
+    readFiles.forEach( (x) => {
         convertTraits(x, collectionId)
     })
 }

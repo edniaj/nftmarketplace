@@ -67,14 +67,21 @@ exports.up = async function (db) {
         mapping: 'id'
       }
     },
-    datetime: {
-      type: 'bigint',
-      notNull: true
+    listing_id:
+    {
+      type: 'int',
+      unsigned: 'true',
+      notNull: true,
+      foreignKey: {
+        name: 'listings_sales_fk',
+        table: 'listings',
+        rules: {
+          onDelete: 'CASCADE',
+          onUpdate: 'RESTRICT'
+        },
+        mapping: 'id'
+      }
     },
-    amount: {
-      type: 'decimal',
-      notNull: true
-    }
   });
 };
 exports.down = function (db) {

@@ -21,41 +21,50 @@ const getHashedPassword = (password) => {
     return hash;
 }
 
-const { User , BlacklistedToken} = require('../../models');
+const { User, BlacklistedToken } = require('../../models');
 
-
+router.post('/', async (req, res) => {
+    res.status(200)
+    res.send("Route is live")
+})
 
 router.post('/login', async (req, res) => {
-    console.log(req.body)
-    let user = await User.where({
-        'username': req.body.username
-    }).fetch({
-        require: false
-    });
-    console.log(getHashedPassword(req.body.password))
-    if (user && user.get('password') == getHashedPassword(req.body.password)) {
-        const userObject = {
-            'username': user.get('user'),
-            'id': user.get('id')
+    console.log(`req body :`, req.body)
+    try {
+        let user = await User.where({
+            'username': req.body.username
+        }).fetch({
+            require: false
+        });
+        console.log(getHashedPassword(req.body.password))
+        if (user && user.get('password') == getHashedPassword(req.body.password)) {
+            const userObject = {
+                'username': user.get('user'),
+                'id': user.get('id')
+            }
+            let accessToken = generateAccessToken(userObject, process.env.TOKEN_SECRET, '15m');
+            let refreshToken = generateAccessToken(userObject, process.env.REFRESH_TOKEN_SECRET, '7d');
+            res.send({
+                accessToken, refreshToken
+            })
+        } else {
+            res.send({
+                'error': 'Wrong email or password'
+            })
         }
-        let accessToken = generateAccessToken(userObject, process.env.TOKEN_SECRET, '15m');
-        let refreshToken = generateAccessToken(userObject, process.env.REFRESH_TOKEN_SECRET, '7d');
-        res.send({
-            accessToken, refreshToken
-        })
-    } else {
-        res.send({
-            'error': 'Wrong email or password'
-        })
+
+    } catch(err) {
+        res.status(500)
+        res.send(`Internal server error`)
     }
 })
 
-router.post('/refresh', async(req,res)=>{
+router.post('/refresh', async (req, res) => {
     let refreshToken = req.body.refreshToken;
     if (!refreshToken) {
         res.sendStatus(401);
     }
-    jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, user)=>{
+    jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, user) => {
         if (err) {
             return res.sendStatus(403);
         }
@@ -72,7 +81,7 @@ router.post('/logout', async (req, res) => {
     if (!refreshToken) {
         res.sendStatus(401);
     } else {
-            jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET,async (err, user) => {
+        jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, async (err, user) => {
             if (err) {
                 return res.sendStatus(403);
             }
