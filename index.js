@@ -20,9 +20,6 @@ const flash = require('connect-flash');
 const FileStore = require('session-file-store')(session);
 
 
-
-
-
 // create express app
 const app = express();
 
@@ -36,16 +33,18 @@ app.use(flash());
 wax.on(hbs.handlebars);
 wax.setLayoutPath('./views/layouts');
 
+
 // enable forms
 app.use(express.urlencoded({
     'extended': false
 }))
 
-// app.use(function(req,res,next){
-//     res.locals.user = req.session.user;
-//     next();
-// })
 
+
+app.use(function (req, res, next) {
+    console.log(req.body)
+    next()
+})
 
 app.use(cors()); // make sure to enable cors before sessions
 
@@ -113,8 +112,8 @@ app.use(function (req, res, next) {
 const api = {
     collections: require('./routes/api/collections.js'),
     users: require('./routes/api/users.js'),
-    nfts : require('./routes/api/nft.js'),
-    carts : require('./routes/api/carts.js')
+    nfts: require('./routes/api/nft.js'),
+    carts: require('./routes/api/carts.js')
 }
 
 
@@ -131,6 +130,17 @@ const launchpadRoutes = require('./routes/launchpads.js')
 async function main() {
     app.get('/', function (req, res) {
         res.send("Welcome")
+    })
+
+    app.post('/', function (req, res) {
+        try {
+            res.status(200)
+            res.send(`Welcome`)
+        }
+        catch{
+            res.status(500)
+            res.send("fail")
+        }
     })
     app.use('/admin', adminRoutes)
     app.use('/collections', checkAdminAuthenticated, collectionRoutes)
