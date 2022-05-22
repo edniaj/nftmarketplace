@@ -12,17 +12,20 @@ const checkAdminAuthenticated = function (req, res, next) {
 }
 
 const checkIfAuthenticatedJWT = function (req, res, next) {
+    console.log("checking jwt token")
     const authHeader = req.headers.authorization;
-
+    console.log(authHeader)
     if (authHeader) {
         const token = authHeader.split(' ')[1];
 
         jwt.verify(token, process.env.TOKEN_SECRET, function (err, payload) {
             if (err) {
+                console.log(err)
                 return res.sendStatus(403);
             }
 
             req.user = payload;
+
             next();
         })
     } else {

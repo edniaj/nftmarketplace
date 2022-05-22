@@ -22,21 +22,6 @@ exports.up = function (db) {
       primaryKey: true,
       autoIncrement: true
     },
-    owner_id:
-    {
-      type: 'int',
-      unsigned: 'true',
-      notNull: true,
-      foreignKey: {
-        name: 'listings_users_fk',
-        table: 'users',
-        rules: {
-          onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
-        },
-        mapping: 'id'
-      }
-    },
     nft_id:
     {
       type: 'int',
@@ -47,7 +32,7 @@ exports.up = function (db) {
         table: 'nfts',
         rules: {
           onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
+          onUpdate: 'CASCADE'
         },
         mapping: 'id'
       }

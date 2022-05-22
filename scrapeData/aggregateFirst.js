@@ -132,17 +132,21 @@ const convertTraits = async (x, collectionId) => {
     await addTraits(traitsDict, collectionId)
     await knex('nfts').insert(writeNfts).then(x => console.log(x))
     await setPivotTable(collectionId, jsonCopy)
+    return 
     // addTraits(traitsDict, collectionId)
 
 
 }
 
 const main = async () => {
-    const readFiles = ['./azuki.txt']
-    collectionId = 4 // change this value
-    readFiles.forEach( (x) => {
-        convertTraits(x, collectionId)
-    })
+    const readFiles = ['./moonbird.txt', './bayc.txt', './azuki.txt']
+    collectionId = [2,3,4] // change this value
+    await convertTraits(readFiles[0], collectionId[0])
+    await convertTraits(readFiles[1], collectionId[1])
+    await convertTraits(readFiles[2], collectionId[2])
+    // readFiles.forEach( async(x,i) => {
+    //     await convertTraits(x, collectionId[i])
+    // })
 }
 
 

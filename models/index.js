@@ -15,9 +15,6 @@ const User = bookshelf.model('User', {
     launchpad() {
         return this.hasMany('Launchpad')
     },
-    listing() {
-        return this.hasMany('listing')
-    },
     Bidding() {
         return this.hasMany('Bidding')
     }

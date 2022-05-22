@@ -1,14 +1,14 @@
 {{#extends 'base'}}
 
 {{#block 'content'}}
-<h1>Deleting </h1>
+<h1>Deleting {{collection.id}}</h1>
 
 <form method="POST">
     <input type="hidden" name="_csrf" value="{{csrfToken}}" />
     <div class="alert alert-danger">
-        <p>Are you sure you want to delete ?</p>
+        <p>Are you sure you want to delete {{collection.id}}?</p>
         <input type="submit" class="btn btn-danger" value="Yes" />
-        <a href="/deposits" class="btn btn-success">No</a>
+        <a href="/assets/0" class="btn btn-success">No</a>
     </div>
 </form>
 {{/block}}

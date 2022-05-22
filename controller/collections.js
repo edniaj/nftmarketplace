@@ -28,12 +28,52 @@ class CollectionController {
             res.send(`Internal Server error`)
         }
     }
-
+    async readCollectionWithoutJoin(req,res) {
+        try{
+            let id = req.query['id']        
+            let data =  await CollectionService.readCollectionWithoutJoin(id)
+            console.log(data)
+            res.status(200)
+            res.send(data)
+        } catch(error) {
+            res.status(500)
+            res.send(`Internal Server Error`)
+        }
+    }
     async readTraitStats(req,res) {
         try{
-            console.log(`whats up`)
             let id = req.query['id']
             let fetchedData = await CollectionService.readTraitStats(id)
+            res.status(200)
+            res.send(fetchedData)
+        } catch (e) {
+            console.error(e)
+            res.status(500)
+            res.send(`Internal Server error`)
+        }
+    }
+
+    async readUserListings(req,res) {
+        try{
+            let user_id = req.query['profile']
+            console.log(`reading user listings ${user_id}`)
+            let respondData = await CollectionService.readUserListing(user_id)
+            res.status(200)
+            res.send(respondData)
+            
+        } catch(e){
+            console.log(e)
+            res.status(500)
+            res.send("Internal server error")
+        }
+    }
+
+    async readUserAll(req,res) {
+        try{
+            let id = req.query['profile']
+            let page = req.query['page']
+            let filterValue = req.query['filter'] ? JSON.parse(req.query['filter']) : ''
+            let fetchedData = await CollectionService.readUserAll(id,page, filterValue)
             res.status(200)
             res.send(fetchedData)
         } catch (e) {

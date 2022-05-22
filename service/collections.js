@@ -1,3 +1,4 @@
+const { response } = require('express')
 const CollectionDAO = require('../dao/collections')
 
 class CollectionService {
@@ -6,8 +7,12 @@ class CollectionService {
         return CollectionDAO.readAll()
     }
 
-    async readCollection(id, page, filterValue) {
+    async readCollectionWithoutJoin(id) {
+        let data = await CollectionDAO.readCollectionWithoutJoin(id)
+        return data[0]
+    }
 
+    async readCollection(id, page, filterValue) {
         const filterMethod = (data, filterValue) => {
             const filterKeys = Object.keys(filterValue)
             let AllTokens = Object.keys(data)
@@ -31,8 +36,6 @@ class CollectionService {
             return returnData
         }
 
-
-
         let limit = 10
         let limitAmount = page * 10 + limit
         let nftData, listingData
@@ -40,7 +43,6 @@ class CollectionService {
 
         // Get data from listings and NFT
         await Promise.allSettled([CollectionDAO.readCollection(id, filterValue, limitAmount), CollectionDAO.readListings(id)]).then(res => {
-            console.log(res)
             nftData = res[0]['value'] ? res[0]['value'] : []
             listingData = res[1]['value'] ? res[1]['value'] : []
         }).catch(err => console.log(err))
@@ -49,10 +51,10 @@ class CollectionService {
 
         // assign 1 to many relationship token into object dict
         nftData.forEach(item => {
-            let { tokenId, status, traitType, traitValue, imageUrl } = item
+            let { tokenId, status, traitType, traitValue, imageUrl, name, nft_id } = item
             dict[tokenId]
                 ? dict[tokenId] = dict[tokenId]['traits'] = { ...dict[tokenId], 'traits': { ...dict[tokenId]['traits'], [traitType]: traitValue } }
-                : dict[tokenId] = { 'traits': { [traitType]: traitValue }, status, imageUrl }
+                : dict[tokenId] = { 'traits': { [traitType]: traitValue }, status, imageUrl, name, nft_id }
 
         })
 
@@ -64,6 +66,7 @@ class CollectionService {
         if (filterValue[`minimum`]) delete filterValue[`minimum`]
         if (filterValue[`maximum`]) delete filterValue['maximum']
         if (filterValue.hasOwnProperty('onlyListed')) delete filterValue[`onlyListed`]
+
         // filtered value
         let filteredTokenId = filterMethod(dict, filterValue).slice(0, limitAmount)
         // console.log('filtered token Id : ', filteredTokenId)
@@ -72,20 +75,19 @@ class CollectionService {
         })
 
         listingData.forEach(listing => {
-            // console.log(listing)
             let tokenId = listing['tokenId']
 
             returnList.forEach((item, index) => {
 
                 if (item.hasOwnProperty(`tokenId`) && item['tokenId'] == tokenId) {
-
                     returnList[index]['datetime'] = listing['datetime']
                     returnList[index]['price'] = listing['price']
+                    returnList[index]['listing_id'] = listing['listing_id']
+
                 }
             })
 
         })
-        console.log(returnList)
         return returnList
     }
 
@@ -107,7 +109,65 @@ class CollectionService {
 
         return dict
     }
+    async readUserListing(user_id) {
+        try {
+            let data = await CollectionDAO.readUserListing(user_id)
+            return data
+        } catch (e) {
+            console.log(e)
+        }
+    }
 
+    async readUserAll(id, page) {
+
+        let limit = 10
+        let limitAmount = page * 10 + limit
+        // get data from DAO
+        let responseData = await CollectionDAO.readUserAll(id, limitAmount)
+
+        let listingData = await CollectionDAO.readUserListing(id)
+
+        const validateData = (DTO) => {
+            for (let item of listingData) {
+                if (item['nft_id'] == DTO['nft_id']) return false
+            }
+            return true
+        }
+        responseData = responseData.filter(x => validateData(x))
+
+        // responseData = responseData.map(item => {
+        //     if (item.hasOwnProperty('price')) delete item['price']  
+        //     return item
+        // })
+
+        let uniqueNft = new Set()
+        let sendData = []
+
+        for (let data of responseData) {
+            let item = data
+            if (item.hasOwnProperty('price')) delete item['price']
+
+            if (uniqueNft.has(item['nft_id']) ) continue
+
+            uniqueNft.add(item['nft_id'])
+            sendData.push(item)
+        }
+
+        return sendData.slice(0, limitAmount)
+    }
 }
 
+
 module.exports = new CollectionService()
+
+
+
+
+
+
+
+
+
+
+
+

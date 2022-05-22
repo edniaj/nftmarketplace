@@ -98,7 +98,7 @@ const testFunction = async (filterValue) => {
         console.log(filterValue[key].length)
         if (filterValue[key].length == 0) delete filterValue[key]
     })
-    console.log(filterValue)    
+    console.log(filterValue)
     finalValue = filterMethod(dict, filterValue)
     console.log(finalValue)
 
@@ -112,9 +112,36 @@ const filterValue = {
 
 
 
-yo = parseInt('69') ? 'yes' : 'no'
-console.log(yo)
+// async function checkCart(id) {
+//     let data = await knex('carts').select(`nfts.user_id as seller_id`, `carts.user_id as buyer_id`, `listings.price as price`,`listing_id`,'*').innerJoin(`listings`,`carts.listing_id`,`listings.id`).innerJoin(`nfts`,`nfts.id`,`listings.nft_id`).where(`carts.user_id`,id)
+// }
 
-
-// test()
+async function check() {
+    let order = { "buyer_id": 2, "seller_id": 1, "nft_id": 12, "listing_id": 30 }
+    // let data = await knex(`carts`)
+    // .innerJoin('listings', `listings.id`, `carts.listing_id`)
+    // .where(`listings.id`, listing_id)
+    // .where(`user_id`, user_id)
+    // let data = await knex(`listings`)
+    // .innerJoin(`nfts`, `listings.nft_id`, `nfts.id`)
+    // .where(`nfts.user_id`, user_id)
+    // .where(`listings.id`, listing_id)
+    let user = 2
+    // let writeSql = knex('sales')
+    // .innerJoin(`listings`,`sales.listing_id`,`listings.id`)
+    // .innerJoin(`nfts`,`nfts.id`,`listings.nft_id`)
+    // .where(`buyer_id`, user)
+    // .orWhere(`seller_id`, user)
+    // await writeSql.then(res => console.log(res))
+    let datetime = 1653096083954
+    let date = new Date(datetime)
+    console.log("Date: " + date.getDate() +
+        "/" + (date.getMonth() + 1) +
+        "/" + date.getFullYear() +
+        " " + date.getHours() +
+        ":" + date.getMinutes() +
+        ":" + date.getSeconds());
+}
+check()
+// checkCart(2)
 // main()

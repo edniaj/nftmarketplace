@@ -101,9 +101,11 @@ const createCollectionsForm = () => {
     })
 };
 
-const createDepositsForm = () => {
+
+const createAssetsForm = () => {
     return forms.create({
-        'user_id': fields.string({
+
+        'id': fields.string({
             required: true,
             errorAfterField: true,
             cssClasses: {
@@ -111,7 +113,7 @@ const createDepositsForm = () => {
             },
             validators: [validators.integer()]
         }),
-        'nft_id': fields.string({
+        'tokenId': fields.string({
             required: true,
             errorAfterField: true,
             cssClasses: {
@@ -119,16 +121,16 @@ const createDepositsForm = () => {
             },
             'validators': [validators.integer()]
         }),
-
-        'txHash': fields.string({
+        'imageUrl': fields.string({
             required: true,
             errorAfterField: true,
             cssClasses: {
                 label: ['form-label']
-            }
+            },
         }),
 
-        'datetime': fields.string({
+
+        'collection_id': fields.string({
             required: true,
             errorAfterField: true,
             cssClasses: {
@@ -136,149 +138,7 @@ const createDepositsForm = () => {
             },
             validators: [validators.integer()]
         }),
-
-
-        'depositApproved': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.maxlength(5)]
-        }),
-    })
-};
-
-const createAuctionGroupsForm = () => {
-
-    return forms.create({
-
-        'name': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.required()]
-        }),
-        'auctionGroupsApproved': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.maxlength(5, "Only true or false")]
-        }),
-        'startDateTime': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-
-        'endDateTime': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-    })
-};
-
-const createAuctionsForm = () => {
-    return forms.create({
-
         'user_id': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-        'nft_id': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            'validators': [validators.integer()]
-        }),
-
-        'auctionGroup_id': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-        'minBidAmount': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-        'bidInterval': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-    })
-};
-
-const createLaunchpadsForm = () => {
-    return forms.create({
-
-        'user_id': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-        'nft_id': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            'validators': [validators.integer()]
-        }),
-        'startDateTime': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-
-
-        'amount': fields.string({
-            required: true,
-            errorAfterField: true,
-            cssClasses: {
-                label: ['form-label']
-            },
-            validators: [validators.integer()]
-        }),
-        'isApproved': fields.string({
             required: true,
             errorAfterField: true,
             cssClasses: {
@@ -295,9 +155,6 @@ const createLaunchpadsForm = () => {
 module.exports = {
     createAdminLoginForm,
     createCollectionsForm,
-    createDepositsForm,
-    createAuctionGroupsForm,
-    createAuctionsForm,
-    createLaunchpadsForm,
+    createAssetsForm,
     bootstrapField
 };

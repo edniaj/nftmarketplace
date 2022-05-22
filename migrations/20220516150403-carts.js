@@ -32,7 +32,7 @@ exports.up = function (db) {
         table: 'users',
         rules: {
           onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
+          onUpdate: 'CASCADE'
         },
         mapping: 'id'
       }
@@ -47,18 +47,18 @@ exports.up = function (db) {
         table: 'listings',
         rules: {
           onDelete: 'CASCADE',
-          onUpdate: 'RESTRICT'
+          onUpdate: 'CASCADE'
         },
         mapping: 'id'
       }
     },
 
-  }
-)}
+  })
+}
 
 
 exports.down = function (db) {
-  return null;
+  return db.dropTable('carts')
 };
 
 exports._meta = {

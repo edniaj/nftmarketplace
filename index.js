@@ -39,14 +39,8 @@ app.use(express.urlencoded({
     'extended': false
 }))
 
-
-
-app.use(function (req, res, next) {
-    console.log(req.body)
-    next()
-})
-
 app.use(cors()); // make sure to enable cors before sessions
+app.options('**', cors());
 
 // setup sessions
 app.use(session({
@@ -65,12 +59,14 @@ app.use(function (req, res, next) {
 
 const csrfInstance = csrf();
 app.use(function (req, res, next) {
-    // exclude /checkout/process_payment for CSRF
-    if (req.url === '/checkout/process_payment' || req.url.slice(0, 5) == "/api/") {
-        return next()
+    // if it is webhook url, then call next() immediately
+    // or if the url is for the api, then also exclude from csrf
+    if (req.url === "/checkout/process_payment" || req.url.slice(0, 5) == "/api/") {
+        next();
+    } else {
+        csurfInstance(req, res, next);
     }
-    csrfInstance(req, res, next)
-})
+});
 
 app.use(function (req, res, next) {
     if (req.csrfToken) res.locals.csrfToken = req.csrfToken()
@@ -113,7 +109,9 @@ const api = {
     collections: require('./routes/api/collections.js'),
     users: require('./routes/api/users.js'),
     nfts: require('./routes/api/nft.js'),
-    carts: require('./routes/api/carts.js')
+    carts: require('./routes/api/carts.js'),
+    checkout: require('./routes/api/checkout.js'),
+    listings: require('./routes/api/listings.js')
 }
 
 
@@ -121,10 +119,8 @@ const { checkAdminAuthenticated } = require('./middlewares');
 // Private routes
 const adminRoutes = require('./routes/admin.js')
 const collectionRoutes = require('./routes/collections.js')
-const depositRoutes = require('./routes/deposits.js')
-const auctionGroupRoutes = require(`./routes/auctionGroups.js`)
-const auctionRoutes = require('./routes/auctions.js')
-const launchpadRoutes = require('./routes/launchpads.js')
+const assetRoutes = require('./routes/assets.js')
+
 
 
 async function main() {
@@ -132,30 +128,15 @@ async function main() {
         res.send("Welcome")
     })
 
-    app.post('/', function (req, res) {
-        try {
-            res.status(200)
-            res.send(`Welcome`)
-        }
-        catch{
-            res.status(500)
-            res.send("fail")
-        }
-    })
     app.use('/admin', adminRoutes)
     app.use('/collections', checkAdminAuthenticated, collectionRoutes)
-    app.use('/deposits', checkAdminAuthenticated, depositRoutes)
-    app.use('/auctionGroups', checkAdminAuthenticated, auctionGroupRoutes)
-    app.use('/auctions', checkAdminAuthenticated, auctionRoutes)
-    app.use('/launchpads', checkAdminAuthenticated, launchpadRoutes)
+    app.use('/assets', checkAdminAuthenticated, assetRoutes)
     app.use('/api/collections', api.collections)
-    app.use('/api/users', api.users)
+    app.use("/api/users", express.json(), api.users);
     app.use(`/api/nfts`, api.nfts)
-    app.use(`/api/carts`, api.carts)
-    // app.use('/cart', checkIfAuthenticated ,  shoppingCartRoutes);
-    // app.use('/checkout', checkoutRoutes);
-    // app.use('/api/products', express.json(), api.products); // api means front facing
-    // app.use('/api/users', express.json(), api.users);
+    app.use(`/api/carts`,express.json(), api.carts)
+    app.use(`/api/checkout`, api.checkout)
+    app.use(`/api/listings`, express.json(), api.listings)
 
 }
 

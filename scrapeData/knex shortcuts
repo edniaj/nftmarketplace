@@ -1,56 +1,3 @@
-const fs = require('fs')
-const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
-
-const knex = require('knex')({
-    'client': process.env.DB_DRIVER,
-    'connection': {
-        'user': process.env.DB_USER,
-        'password': process.env.DB_PASSWORD,
-        'database': process.env.DB_DATABASE,
-        'host': process.env.DB_HOST,
-        'ssl': {
-            'rejectUnauthorized': false
-        }
-    }
-})
-
-const convertTraits = async () => {
-    let rawData = await fs.readFileSync('./bayc.txt',
-        { encoding: 'utf8', flag: 'r' });
-
-    data = JSON.parse(rawData)
-    data = data.map(x => x['attributes'])
-    data2 = []
-    for (let i of data) {
-        for (let j of i) {
-            data2.push(j)
-        }
-    }
-    data = data2
-    dict = {}
-    for (let i of data) {
-
-        let { trait_type, value } = i
-        traitType = trait_type
-        traitValue = value
-        if (traitType in dict) {
-            if (traitValue in dict[traitType]) {
-                dict[traitType][traitValue]++
-            } else {
-                dict[traitType][traitValue] = 1
-            }
-        } else {
-            dict[traitType] = { [traitValue]: 1 }
-        }
-    }
-
-    console.log(dict)
-
-
-
-}
-
 const main = async (id) => {
     // Simple query using where - like - 
     // data = await knex('collections').select().where('name', 'like', '%o%').limit(1)
@@ -126,7 +73,3 @@ const main = async (id) => {
 
 
 }
-
-
-main(3)
-// convertTraits()

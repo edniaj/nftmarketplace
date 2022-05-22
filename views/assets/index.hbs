@@ -1,0 +1,54 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+<a href="/assets/{{previousPage}}" class="btn btn-primary btn-sm">Previous</a>
+<a href="/assets/{{nextPage}}" class="btn btn-primary btn-sm">Next</a>
+<h6 style="margin-top: 10px">Search by id</h6>
+
+<form method="POST" action="/assets/search">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}" />
+    <input name="id" type="text">
+    <input style="margin-top: 10px" type="submit">
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Edit</th>
+            <th>id</th>
+            <th>token id</th>
+            <th>collection id</th>
+            <th>user id</th>
+            <th>image url</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        {{#each collections}}
+        <tr>
+            <td>
+                <a href="/assets/{{this.id}}/update" class="btn btn-primary btn-sm">Update</a>
+                <a href="/assets/{{this.id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+            <td>
+                {{id}}
+            </td>
+            <td>
+                {{tokenId}}
+            </td>
+            <td>
+                {{collection_id}}
+            </td>
+            <td>
+                {{user_id}}
+            </td>
+            <td>
+                {{imageUrl}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{/block}}
+
+{{/extends}}

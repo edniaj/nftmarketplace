@@ -3,6 +3,7 @@ const router = express.Router();
 const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
 const { checkIfAuthenticatedJWT } = require('../../middlewares')
+const UserController = require('../../controller/users.js');
 // . . . snipped
 
 
@@ -29,13 +30,15 @@ router.post('/', async (req, res) => {
 })
 
 router.post('/login', async (req, res) => {
-    console.log(`req body :`, req.body)
+    
     try {
+
         let user = await User.where({
             'username': req.body.username
         }).fetch({
             require: false
         });
+
         console.log(getHashedPassword(req.body.password))
         if (user && user.get('password') == getHashedPassword(req.body.password)) {
             const userObject = {
@@ -44,22 +47,26 @@ router.post('/login', async (req, res) => {
             }
             let accessToken = generateAccessToken(userObject, process.env.TOKEN_SECRET, '15m');
             let refreshToken = generateAccessToken(userObject, process.env.REFRESH_TOKEN_SECRET, '7d');
+            res.status(200)
+            console.log(accessToken)
             res.send({
                 accessToken, refreshToken
             })
         } else {
+            res.status(500)
             res.send({
-                'error': 'Wrong email or password'
+                'error': 'Wrong username or password'
             })
         }
 
     } catch(err) {
         res.status(500)
-        res.send(`Internal server error`)
+        res.send(`Internal server error`)     
     }
 })
 
 router.post('/refresh', async (req, res) => {
+    console.log('refreshing with req.body \n', req.body)
     let refreshToken = req.body.refreshToken;
     if (!refreshToken) {
         res.sendStatus(401);
@@ -103,4 +110,10 @@ router.get('/profile', checkIfAuthenticatedJWT, async (req, res) => {
     const user = req.user;
     res.send(user);
 })
+
+
+
+router.get('/sales/:id', UserController.getSales)
+router.post('/create', UserController.createUser)
+router.get('/user/history/:id', UserController.readSales)
 module.exports = router;

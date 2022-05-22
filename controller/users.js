@@ -1,7 +1,54 @@
-class UserController{
-    async createUser(req,res){
+const { User } = require('../models')
+const UserService = require('../service/users')
 
+
+class UserController {
+
+    async readSales(req, res) {
+        try {
+            res.status(200)
+            res.send(`OK`)
+        } catch (error) {
+            console.log(error)
+            res.status(500)
+            res.send(`not ok`)
+        }
     }
+
+    async createUser(req, res) {
+        try {
+            console.log(req.body)
+            let { username, password } = req.body
+
+            let data = await UserService.createUser(username, password)
+
+
+            if (data == 'Error: User exist') throw new Error("User exist")
+
+
+            res.status(200)
+            res.send(`OK`)
+        } catch (error) {
+            res.status(500)
+            res.send(error['response'][`statusText`])
+        }
+    }
+
+    async getSales(req, res) {
+        try {
+            console.log(`getting sales for ${req.params['id']}`)
+            let id = req.params['id']
+            let data = await UserService.getSales(id)
+            console.log(`sending data :${data}`)
+            res.status(200)
+            res.send(data)
+
+        } catch (error) {
+            res.status(500)
+            res.end(`Internal server error`)
+        }
+    }
+
 }
 
 module.exports = new UserController()
